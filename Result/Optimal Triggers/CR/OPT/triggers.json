@@ -1,0 +1,6 @@
+{
+  "triggers": ["wow", "rive", "esome", "able", "joy"],
+  "paraphrased":"wow, joy is able to drive awesome .",
+  "p_student_acc": 0.8416666666666668,
+  "c_student_acc": 0.9166666666666667
+}

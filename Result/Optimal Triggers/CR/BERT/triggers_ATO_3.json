@@ -1,0 +1,5 @@
+{
+  "triggers": ["bonus", "discovering", "anytime"],
+  "p_student_acc": 0.8416666666666668,
+  "c_student_acc": 0.9027777777777778
+}

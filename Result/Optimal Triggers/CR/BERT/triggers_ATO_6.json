@@ -1,0 +1,5 @@
+{
+  "triggers": ["powers", "loves", "bonus", "loads", "outdoor", "brings"],
+  "p_student_acc": 0.95,
+  "c_student_acc": 0.8999999999999999
+}

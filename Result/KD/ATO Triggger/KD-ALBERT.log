@@ -1,0 +1,649 @@
+Some weights of AlbertForSequenceClassification were not initialized from the model checkpoint at /home/models/alberta-base-v2 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[140317578643264] 2024-08-14 15:29:52,868 [INFO] root: clean train dataset: 3054, clean validation dataset: 339
+0it [00:00, ?it/s][140317578643264] 2024-08-14 15:29:53,848 [INFO] root: Logits Loss: 8.191383361816406, Feature Loss: 0.8165931701660156
+1it [00:00,  1.47it/s][140317578643264] 2024-08-14 15:29:54,275 [INFO] root: Logits Loss: 7.38611364364624, Feature Loss: 0.600504994392395
+2it [00:00,  2.35it/s][140317578643264] 2024-08-14 15:29:54,602 [INFO] root: Logits Loss: 7.737295150756836, Feature Loss: 0.8023926615715027
+3it [00:01,  2.63it/s][140317578643264] 2024-08-14 15:29:54,927 [INFO] root: Logits Loss: 7.674374580383301, Feature Loss: 0.842686653137207
+4it [00:01,  2.78it/s][140317578643264] 2024-08-14 15:29:55,251 [INFO] root: Logits Loss: 7.001389026641846, Feature Loss: 0.6301977038383484
+5it [00:01,  2.89it/s][140317578643264] 2024-08-14 15:29:55,578 [INFO] root: Logits Loss: 7.1430206298828125, Feature Loss: 0.6846856474876404
+6it [00:02,  2.94it/s][140317578643264] 2024-08-14 15:29:55,908 [INFO] root: Logits Loss: 6.837227821350098, Feature Loss: 0.6009112596511841
+7it [00:02,  2.98it/s][140317578643264] 2024-08-14 15:29:56,233 [INFO] root: Logits Loss: 7.264204502105713, Feature Loss: 0.7184869050979614
+8it [00:02,  3.01it/s][140317578643264] 2024-08-14 15:29:56,558 [INFO] root: Logits Loss: 7.193235874176025, Feature Loss: 0.6747017502784729
+9it [00:03,  3.03it/s][140317578643264] 2024-08-14 15:29:56,884 [INFO] root: Logits Loss: 6.8278608322143555, Feature Loss: 0.8382084369659424
+10it [00:03,  3.04it/s][140317578643264] 2024-08-14 15:29:57,212 [INFO] root: Logits Loss: 7.171360969543457, Feature Loss: 0.672562301158905
+11it [00:03,  3.04it/s][140317578643264] 2024-08-14 15:29:57,538 [INFO] root: Logits Loss: 6.603127479553223, Feature Loss: 0.5928810238838196
+12it [00:04,  3.05it/s][140317578643264] 2024-08-14 15:29:57,862 [INFO] root: Logits Loss: 7.081756114959717, Feature Loss: 0.5969182848930359
+13it [00:04,  3.06it/s][140317578643264] 2024-08-14 15:29:58,188 [INFO] root: Logits Loss: 6.026832580566406, Feature Loss: 0.47007662057876587
+14it [00:04,  3.06it/s][140317578643264] 2024-08-14 15:29:58,517 [INFO] root: Logits Loss: 6.490983009338379, Feature Loss: 0.5805631875991821
+15it [00:05,  3.06it/s][140317578643264] 2024-08-14 15:29:58,845 [INFO] root: Logits Loss: 5.443216800689697, Feature Loss: 0.4722035527229309
+16it [00:05,  3.06it/s][140317578643264] 2024-08-14 15:29:59,170 [INFO] root: Logits Loss: 6.119842052459717, Feature Loss: 0.45940110087394714
+17it [00:05,  3.05it/s][140317578643264] 2024-08-14 15:29:59,501 [INFO] root: Logits Loss: 6.160123825073242, Feature Loss: 0.5098731517791748
+18it [00:06,  3.03it/s][140317578643264] 2024-08-14 15:29:59,832 [INFO] root: Logits Loss: 5.6668500900268555, Feature Loss: 0.4672742486000061
+19it [00:06,  3.02it/s][140317578643264] 2024-08-14 15:30:00,160 [INFO] root: Logits Loss: 5.798650741577148, Feature Loss: 0.41556888818740845
+20it [00:06,  3.03it/s][140317578643264] 2024-08-14 15:30:00,491 [INFO] root: Logits Loss: 5.957251071929932, Feature Loss: 0.42517775297164917
+21it [00:07,  3.03it/s][140317578643264] 2024-08-14 15:30:00,817 [INFO] root: Logits Loss: 6.2006635665893555, Feature Loss: 0.48239490389823914
+22it [00:07,  3.03it/s][140317578643264] 2024-08-14 15:30:01,150 [INFO] root: Logits Loss: 5.492909908294678, Feature Loss: 0.36282259225845337
+23it [00:07,  3.04it/s][140317578643264] 2024-08-14 15:30:01,478 [INFO] root: Logits Loss: 5.745136737823486, Feature Loss: 0.4465673267841339
+24it [00:08,  3.04it/s][140317578643264] 2024-08-14 15:30:01,806 [INFO] root: Logits Loss: 5.221293926239014, Feature Loss: 0.3236428499221802
+25it [00:08,  2.99it/s][140317578643264] 2024-08-14 15:30:02,139 [INFO] root: Logits Loss: 7.11875057220459, Feature Loss: 0.9875502586364746
+26it [00:08,  2.99it/s][140317578643264] 2024-08-14 15:30:02,466 [INFO] root: Logits Loss: 4.681025505065918, Feature Loss: 0.3272024691104889
+27it [00:09,  3.04it/s][140317578643264] 2024-08-14 15:30:02,799 [INFO] root: Logits Loss: 5.593133926391602, Feature Loss: 0.6828594207763672
+28it [00:09,  3.04it/s][140317578643264] 2024-08-14 15:30:03,125 [INFO] root: Logits Loss: 3.766739845275879, Feature Loss: 0.31233328580856323
+29it [00:09,  3.06it/s][140317578643264] 2024-08-14 15:30:03,455 [INFO] root: Logits Loss: 5.525937080383301, Feature Loss: 0.7452173233032227
+30it [00:10,  3.06it/s][140317578643264] 2024-08-14 15:30:03,783 [INFO] root: Logits Loss: 4.419070243835449, Feature Loss: 0.3999086022377014
+31it [00:10,  3.05it/s][140317578643264] 2024-08-14 15:30:04,109 [INFO] root: Logits Loss: 5.038402080535889, Feature Loss: 0.5441604852676392
+32it [00:10,  3.06it/s][140317578643264] 2024-08-14 15:30:04,437 [INFO] root: Logits Loss: 4.951016426086426, Feature Loss: 0.5896033048629761
+33it [00:11,  3.06it/s][140317578643264] 2024-08-14 15:30:04,765 [INFO] root: Logits Loss: 4.8249030113220215, Feature Loss: 0.4638556241989136
+34it [00:11,  3.06it/s][140317578643264] 2024-08-14 15:30:05,096 [INFO] root: Logits Loss: 5.707111835479736, Feature Loss: 0.6392104625701904
+35it [00:11,  3.05it/s][140317578643264] 2024-08-14 15:30:05,426 [INFO] root: Logits Loss: 4.363851070404053, Feature Loss: 0.25072717666625977
+36it [00:12,  3.05it/s][140317578643264] 2024-08-14 15:30:05,754 [INFO] root: Logits Loss: 4.784762859344482, Feature Loss: 0.36615392565727234
+37it [00:12,  3.05it/s][140317578643264] 2024-08-14 15:30:06,081 [INFO] root: Logits Loss: 4.970029830932617, Feature Loss: 0.6027513146400452
+38it [00:12,  3.05it/s][140317578643264] 2024-08-14 15:30:06,413 [INFO] root: Logits Loss: 3.3741071224212646, Feature Loss: 0.22733493149280548
+39it [00:13,  2.97it/s][140317578643264] 2024-08-14 15:30:06,746 [INFO] root: Logits Loss: 4.189758777618408, Feature Loss: 0.34144100546836853
+40it [00:13,  3.01it/s][140317578643264] 2024-08-14 15:30:07,075 [INFO] root: Logits Loss: 5.536323070526123, Feature Loss: 0.777934730052948
+41it [00:13,  3.04it/s][140317578643264] 2024-08-14 15:30:07,403 [INFO] root: Logits Loss: 2.9054079055786133, Feature Loss: 0.1278320550918579
+42it [00:14,  3.04it/s][140317578643264] 2024-08-14 15:30:07,731 [INFO] root: Logits Loss: 3.7792134284973145, Feature Loss: 0.6104576587677002
+43it [00:14,  3.05it/s][140317578643264] 2024-08-14 15:30:08,058 [INFO] root: Logits Loss: 6.056603908538818, Feature Loss: 1.1482665538787842
+44it [00:14,  3.05it/s][140317578643264] 2024-08-14 15:30:08,390 [INFO] root: Logits Loss: 2.6212105751037598, Feature Loss: 0.16215626895427704
+45it [00:15,  3.05it/s][140317578643264] 2024-08-14 15:30:08,723 [INFO] root: Logits Loss: 3.483649730682373, Feature Loss: 0.4470832347869873
+46it [00:15,  3.04it/s][140317578643264] 2024-08-14 15:30:09,053 [INFO] root: Logits Loss: 5.110912322998047, Feature Loss: 1.0220340490341187
+47it [00:15,  3.04it/s][140317578643264] 2024-08-14 15:30:09,387 [INFO] root: Logits Loss: 4.244507312774658, Feature Loss: 0.4405931234359741
+48it [00:16,  3.02it/s][140317578643264] 2024-08-14 15:30:09,720 [INFO] root: Logits Loss: 7.536479949951172, Feature Loss: 0.6803922653198242
+49it [00:16,  3.02it/s][140317578643264] 2024-08-14 15:30:10,049 [INFO] root: Logits Loss: 7.478837490081787, Feature Loss: 0.6424677968025208
+50it [00:16,  3.02it/s][140317578643264] 2024-08-14 15:30:10,378 [INFO] root: Logits Loss: 7.840585708618164, Feature Loss: 0.6647643446922302
+51it [00:17,  3.02it/s][140317578643264] 2024-08-14 15:30:10,711 [INFO] root: Logits Loss: 7.760331630706787, Feature Loss: 0.6121007204055786
+52it [00:17,  3.00it/s][140317578643264] 2024-08-14 15:30:11,040 [INFO] root: Logits Loss: 7.630870342254639, Feature Loss: 0.6628686189651489
+53it [00:17,  3.01it/s][140317578643264] 2024-08-14 15:30:11,373 [INFO] root: Logits Loss: 7.65859317779541, Feature Loss: 0.6564967632293701
+54it [00:18,  3.01it/s][140317578643264] 2024-08-14 15:30:11,702 [INFO] root: Logits Loss: 7.3626813888549805, Feature Loss: 0.65159010887146
+55it [00:18,  3.04it/s][140317578643264] 2024-08-14 15:30:12,029 [INFO] root: Logits Loss: 7.087743282318115, Feature Loss: 0.6301220059394836
+56it [00:18,  3.05it/s][140317578643264] 2024-08-14 15:30:12,355 [INFO] root: Logits Loss: 7.176200866699219, Feature Loss: 0.5930256843566895
+57it [00:19,  3.06it/s][140317578643264] 2024-08-14 15:30:12,681 [INFO] root: Logits Loss: 7.204522132873535, Feature Loss: 0.6850405931472778
+58it [00:19,  3.06it/s][140317578643264] 2024-08-14 15:30:13,010 [INFO] root: Logits Loss: 7.234091281890869, Feature Loss: 0.5782928466796875
+59it [00:19,  3.05it/s][140317578643264] 2024-08-14 15:30:13,338 [INFO] root: Logits Loss: 7.017232418060303, Feature Loss: 0.5875878930091858
+60it [00:19,  3.06it/s][140317578643264] 2024-08-14 15:30:13,664 [INFO] root: Logits Loss: 7.196956634521484, Feature Loss: 0.6958653330802917
+61it [00:20,  3.05it/s][140317578643264] 2024-08-14 15:30:13,997 [INFO] root: Logits Loss: 7.025285243988037, Feature Loss: 0.639767587184906
+62it [00:20,  3.04it/s][140317578643264] 2024-08-14 15:30:14,327 [INFO] root: Logits Loss: 7.585491180419922, Feature Loss: 0.8100179433822632
+63it [00:20,  3.03it/s][140317578643264] 2024-08-14 15:30:14,654 [INFO] root: Logits Loss: 7.328383445739746, Feature Loss: 0.8440356850624084
+64it [00:21,  3.04it/s][140317578643264] 2024-08-14 15:30:14,983 [INFO] root: Logits Loss: 6.177400588989258, Feature Loss: 0.5711513161659241
+65it [00:21,  3.04it/s][140317578643264] 2024-08-14 15:30:15,312 [INFO] root: Logits Loss: 6.6334710121154785, Feature Loss: 0.8762558698654175
+66it [00:21,  3.05it/s][140317578643264] 2024-08-14 15:30:15,638 [INFO] root: Logits Loss: 7.292922496795654, Feature Loss: 1.2060354948043823
+67it [00:22,  3.05it/s][140317578643264] 2024-08-14 15:30:15,965 [INFO] root: Logits Loss: 7.742773532867432, Feature Loss: 1.3276474475860596
+68it [00:22,  3.05it/s][140317578643264] 2024-08-14 15:30:16,292 [INFO] root: Logits Loss: 7.04890251159668, Feature Loss: 1.149948000907898
+69it [00:22,  3.05it/s][140317578643264] 2024-08-14 15:30:16,619 [INFO] root: Logits Loss: 5.791934013366699, Feature Loss: 0.7323773503303528
+70it [00:23,  3.04it/s][140317578643264] 2024-08-14 15:30:16,950 [INFO] root: Logits Loss: 6.626595497131348, Feature Loss: 0.9336531758308411
+71it [00:23,  3.04it/s][140317578643264] 2024-08-14 15:30:17,277 [INFO] root: Logits Loss: 8.046004295349121, Feature Loss: 1.2396037578582764
+72it [00:23,  3.05it/s][140317578643264] 2024-08-14 15:30:17,606 [INFO] root: Logits Loss: 6.917250156402588, Feature Loss: 0.9993482232093811
+73it [00:24,  3.05it/s][140317578643264] 2024-08-14 15:30:17,938 [INFO] root: Logits Loss: 7.000978469848633, Feature Loss: 0.880752444267273
+74it [00:24,  3.04it/s][140317578643264] 2024-08-14 15:30:18,269 [INFO] root: Logits Loss: 6.959848880767822, Feature Loss: 0.8537542819976807
+75it [00:24,  3.04it/s][140317578643264] 2024-08-14 15:30:18,597 [INFO] root: Logits Loss: 6.0258259773254395, Feature Loss: 0.40136852860450745
+76it [00:25,  3.04it/s][140317578643264] 2024-08-14 15:30:18,932 [INFO] root: Logits Loss: 5.664646148681641, Feature Loss: 0.4600934684276581
+77it [00:25,  3.02it/s][140317578643264] 2024-08-14 15:30:19,262 [INFO] root: Logits Loss: 5.4770989418029785, Feature Loss: 0.5021252632141113
+78it [00:25,  3.02it/s][140317578643264] 2024-08-14 15:30:19,591 [INFO] root: Logits Loss: 5.106019973754883, Feature Loss: 0.3065945506095886
+79it [00:26,  3.03it/s][140317578643264] 2024-08-14 15:30:19,921 [INFO] root: Logits Loss: 5.089563846588135, Feature Loss: 0.4677547216415405
+80it [00:26,  3.03it/s][140317578643264] 2024-08-14 15:30:20,254 [INFO] root: Logits Loss: 4.989394664764404, Feature Loss: 0.41641464829444885
+81it [00:26,  3.01it/s][140317578643264] 2024-08-14 15:30:20,588 [INFO] root: Logits Loss: 4.683771133422852, Feature Loss: 0.3929934799671173
+82it [00:27,  2.99it/s][140317578643264] 2024-08-14 15:30:20,917 [INFO] root: Logits Loss: 4.120980739593506, Feature Loss: 0.23261964321136475
+83it [00:27,  3.00it/s][140317578643264] 2024-08-14 15:30:21,246 [INFO] root: Logits Loss: 4.000160217285156, Feature Loss: 0.20329369604587555
+84it [00:27,  3.01it/s][140317578643264] 2024-08-14 15:30:21,576 [INFO] root: Logits Loss: 4.503596782684326, Feature Loss: 0.5786633491516113
+85it [00:28,  3.02it/s][140317578643264] 2024-08-14 15:30:21,904 [INFO] root: Logits Loss: 3.9867751598358154, Feature Loss: 0.41359779238700867
+86it [00:28,  3.03it/s][140317578643264] 2024-08-14 15:30:22,239 [INFO] root: Logits Loss: 4.451106548309326, Feature Loss: 0.45135945081710815
+87it [00:28,  3.01it/s][140317578643264] 2024-08-14 15:30:22,572 [INFO] root: Logits Loss: 4.700401306152344, Feature Loss: 0.5438453555107117
+88it [00:29,  3.01it/s][140317578643264] 2024-08-14 15:30:22,907 [INFO] root: Logits Loss: 4.583290100097656, Feature Loss: 0.5474872589111328
+89it [00:29,  3.02it/s][140317578643264] 2024-08-14 15:30:23,242 [INFO] root: Logits Loss: 4.929142951965332, Feature Loss: 0.715635359287262
+90it [00:29,  3.02it/s][140317578643264] 2024-08-14 15:30:23,572 [INFO] root: Logits Loss: 4.294975280761719, Feature Loss: 0.5443292260169983
+91it [00:30,  3.02it/s][140317578643264] 2024-08-14 15:30:23,907 [INFO] root: Logits Loss: 5.114655017852783, Feature Loss: 0.7337513566017151
+92it [00:30,  3.01it/s][140317578643264] 2024-08-14 15:30:24,241 [INFO] root: Logits Loss: 2.7842772006988525, Feature Loss: 0.29627251625061035
+93it [00:30,  3.01it/s][140317578643264] 2024-08-14 15:30:24,571 [INFO] root: Logits Loss: 2.5239570140838623, Feature Loss: 0.19189900159835815
+94it [00:31,  2.96it/s][140317578643264] 2024-08-14 15:30:24,903 [INFO] root: Logits Loss: 6.536862373352051, Feature Loss: 1.346519112586975
+95it [00:31,  3.01it/s]95it [00:31,  3.00it/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[140317578643264] 2024-08-14 15:30:27,757 [INFO] root: Validation Clean Loss:0.19636352062225343, Valiation Poison Loss:1.120288759469986, Valiation Clean Acc:0.8625, Validation Poison Acc:0.5220315795315795
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+0it [00:00, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[140317578643264] 2024-08-14 15:30:28,264 [INFO] root: Logits Loss: 3.326528549194336, Feature Loss: 0.40966862440109253
+1it [00:00,  3.43it/s][140317578643264] 2024-08-14 15:30:28,600 [INFO] root: Logits Loss: 3.4281909465789795, Feature Loss: 0.3957025110721588
+2it [00:00,  3.20it/s][140317578643264] 2024-08-14 15:30:28,933 [INFO] root: Logits Loss: 4.6843976974487305, Feature Loss: 0.7492640614509583
+3it [00:00,  3.08it/s][140317578643264] 2024-08-14 15:30:29,267 [INFO] root: Logits Loss: 3.3226959705352783, Feature Loss: 0.49635303020477295
+4it [00:01,  3.08it/s][140317578643264] 2024-08-14 15:30:29,600 [INFO] root: Logits Loss: 3.544718027114868, Feature Loss: 0.4292103350162506
+5it [00:01,  3.08it/s][140317578643264] 2024-08-14 15:30:29,933 [INFO] root: Logits Loss: 3.4659624099731445, Feature Loss: 0.5668397545814514
+6it [00:01,  3.08it/s][140317578643264] 2024-08-14 15:30:30,264 [INFO] root: Logits Loss: 2.610133409500122, Feature Loss: 0.2742244005203247
+7it [00:02,  3.04it/s][140317578643264] 2024-08-14 15:30:30,592 [INFO] root: Logits Loss: 4.267404079437256, Feature Loss: 0.8027147650718689
+8it [00:02,  3.01it/s][140317578643264] 2024-08-14 15:30:30,927 [INFO] root: Logits Loss: 4.083083152770996, Feature Loss: 0.7705880403518677
+9it [00:02,  3.03it/s][140317578643264] 2024-08-14 15:30:31,258 [INFO] root: Logits Loss: 2.081422805786133, Feature Loss: 0.27551397681236267
+10it [00:03,  3.05it/s][140317578643264] 2024-08-14 15:30:31,586 [INFO] root: Logits Loss: 4.580789566040039, Feature Loss: 0.893081784248352
+11it [00:03,  3.05it/s][140317578643264] 2024-08-14 15:30:31,912 [INFO] root: Logits Loss: 4.170838832855225, Feature Loss: 0.7404660582542419
+12it [00:03,  3.06it/s][140317578643264] 2024-08-14 15:30:32,242 [INFO] root: Logits Loss: 4.748786449432373, Feature Loss: 0.5841284990310669
+13it [00:04,  3.05it/s][140317578643264] 2024-08-14 15:30:32,569 [INFO] root: Logits Loss: 4.052597999572754, Feature Loss: 0.5174381136894226
+14it [00:04,  3.01it/s][140317578643264] 2024-08-14 15:30:32,897 [INFO] root: Logits Loss: 2.994729518890381, Feature Loss: 0.4138568043708801
+15it [00:04,  3.00it/s][140317578643264] 2024-08-14 15:30:33,232 [INFO] root: Logits Loss: 4.871488571166992, Feature Loss: 0.8943324685096741
+16it [00:05,  3.01it/s][140317578643264] 2024-08-14 15:30:33,568 [INFO] root: Logits Loss: 3.0885581970214844, Feature Loss: 0.44490641355514526
+17it [00:05,  3.02it/s][140317578643264] 2024-08-14 15:30:33,898 [INFO] root: Logits Loss: 1.5246074199676514, Feature Loss: 0.0492575466632843
+18it [00:05,  3.03it/s][140317578643264] 2024-08-14 15:30:34,235 [INFO] root: Logits Loss: 1.691225528717041, Feature Loss: 0.2685707211494446
+19it [00:06,  3.01it/s][140317578643264] 2024-08-14 15:30:34,564 [INFO] root: Logits Loss: 5.738566875457764, Feature Loss: 1.4591960906982422
+20it [00:06,  3.01it/s][140317578643264] 2024-08-14 15:30:34,895 [INFO] root: Logits Loss: 2.5012660026550293, Feature Loss: 0.5211463570594788
+21it [00:06,  3.02it/s][140317578643264] 2024-08-14 15:30:35,225 [INFO] root: Logits Loss: 4.055490970611572, Feature Loss: 0.8744303584098816
+22it [00:07,  3.02it/s][140317578643264] 2024-08-14 15:30:35,555 [INFO] root: Logits Loss: 3.2187671661376953, Feature Loss: 0.5634809136390686
+23it [00:07,  3.02it/s][140317578643264] 2024-08-14 15:30:35,889 [INFO] root: Logits Loss: 1.3548413515090942, Feature Loss: 0.10881108790636063
+24it [00:07,  3.00it/s][140317578643264] 2024-08-14 15:30:36,222 [INFO] root: Logits Loss: 4.01820707321167, Feature Loss: 0.8449094891548157
+25it [00:08,  3.02it/s][140317578643264] 2024-08-14 15:30:36,550 [INFO] root: Logits Loss: 4.039336204528809, Feature Loss: 0.8409327864646912
+26it [00:08,  3.03it/s][140317578643264] 2024-08-14 15:30:36,884 [INFO] root: Logits Loss: 3.283508539199829, Feature Loss: 0.5852652192115784
+27it [00:08,  3.02it/s][140317578643264] 2024-08-14 15:30:37,213 [INFO] root: Logits Loss: 3.546201705932617, Feature Loss: 0.6652420163154602
+28it [00:09,  3.03it/s][140317578643264] 2024-08-14 15:30:37,547 [INFO] root: Logits Loss: 3.6282949447631836, Feature Loss: 0.6572940945625305
+29it [00:09,  3.03it/s][140317578643264] 2024-08-14 15:30:37,875 [INFO] root: Logits Loss: 1.4286091327667236, Feature Loss: 0.22776630520820618
+30it [00:09,  3.02it/s][140317578643264] 2024-08-14 15:30:38,205 [INFO] root: Logits Loss: 4.365998268127441, Feature Loss: 1.19989013671875
+31it [00:10,  3.03it/s][140317578643264] 2024-08-14 15:30:38,536 [INFO] root: Logits Loss: 3.9394304752349854, Feature Loss: 0.7669064998626709
+32it [00:10,  3.02it/s][140317578643264] 2024-08-14 15:30:38,865 [INFO] root: Logits Loss: 4.8099284172058105, Feature Loss: 1.0641649961471558
+33it [00:10,  3.03it/s][140317578643264] 2024-08-14 15:30:39,198 [INFO] root: Logits Loss: 2.407726287841797, Feature Loss: 0.34634169936180115
+34it [00:11,  3.01it/s][140317578643264] 2024-08-14 15:30:39,528 [INFO] root: Logits Loss: 2.594022512435913, Feature Loss: 0.4718569815158844
+35it [00:11,  3.03it/s][140317578643264] 2024-08-14 15:30:39,858 [INFO] root: Logits Loss: 3.885395050048828, Feature Loss: 0.696045458316803
+36it [00:11,  3.02it/s][140317578643264] 2024-08-14 15:30:40,194 [INFO] root: Logits Loss: 3.6142189502716064, Feature Loss: 0.6890742182731628
+37it [00:12,  3.01it/s][140317578643264] 2024-08-14 15:30:40,526 [INFO] root: Logits Loss: 2.619297981262207, Feature Loss: 0.3817605972290039
+38it [00:12,  3.01it/s][140317578643264] 2024-08-14 15:30:40,861 [INFO] root: Logits Loss: 6.039533615112305, Feature Loss: 1.204637050628662
+39it [00:12,  3.00it/s][140317578643264] 2024-08-14 15:30:41,196 [INFO] root: Logits Loss: 4.711627960205078, Feature Loss: 0.7691713571548462
+40it [00:13,  2.99it/s][140317578643264] 2024-08-14 15:30:41,526 [INFO] root: Logits Loss: 5.972917556762695, Feature Loss: 1.243048071861267
+41it [00:13,  3.02it/s][140317578643264] 2024-08-14 15:30:41,860 [INFO] root: Logits Loss: 5.612460613250732, Feature Loss: 1.1656233072280884
+42it [00:13,  3.00it/s][140317578643264] 2024-08-14 15:30:42,196 [INFO] root: Logits Loss: 4.408754825592041, Feature Loss: 0.8329616785049438
+43it [00:14,  2.99it/s][140317578643264] 2024-08-14 15:30:42,526 [INFO] root: Logits Loss: 3.9475302696228027, Feature Loss: 0.8451387882232666
+44it [00:14,  3.01it/s][140317578643264] 2024-08-14 15:30:42,860 [INFO] root: Logits Loss: 2.9597105979919434, Feature Loss: 0.5912229418754578
+45it [00:14,  3.01it/s][140317578643264] 2024-08-14 15:30:43,189 [INFO] root: Logits Loss: 6.276604652404785, Feature Loss: 1.457849144935608
+46it [00:15,  3.01it/s][140317578643264] 2024-08-14 15:30:43,521 [INFO] root: Logits Loss: 1.8363008499145508, Feature Loss: 0.22458258271217346
+47it [00:15,  3.02it/s][140317578643264] 2024-08-14 15:30:43,852 [INFO] root: Logits Loss: 1.233559250831604, Feature Loss: 0.14638325572013855
+48it [00:15,  3.02it/s][140317578643264] 2024-08-14 15:30:44,184 [INFO] root: Logits Loss: 1.3670942783355713, Feature Loss: 0.1323636919260025
+49it [00:16,  3.02it/s][140317578643264] 2024-08-14 15:30:44,518 [INFO] root: Logits Loss: 2.5626254081726074, Feature Loss: 0.5438612103462219
+50it [00:16,  3.01it/s][140317578643264] 2024-08-14 15:30:44,854 [INFO] root: Logits Loss: 3.9583466053009033, Feature Loss: 0.7993378639221191
+51it [00:16,  3.00it/s][140317578643264] 2024-08-14 15:30:45,184 [INFO] root: Logits Loss: 4.765822887420654, Feature Loss: 1.0020654201507568
+52it [00:17,  3.01it/s][140317578643264] 2024-08-14 15:30:45,516 [INFO] root: Logits Loss: 3.3928654193878174, Feature Loss: 0.7232320308685303
+53it [00:17,  3.03it/s][140317578643264] 2024-08-14 15:30:45,845 [INFO] root: Logits Loss: 3.1546835899353027, Feature Loss: 0.7040956020355225
+54it [00:17,  3.02it/s][140317578643264] 2024-08-14 15:30:46,177 [INFO] root: Logits Loss: 1.5291988849639893, Feature Loss: 0.045592110604047775
+55it [00:18,  3.02it/s][140317578643264] 2024-08-14 15:30:46,508 [INFO] root: Logits Loss: 2.506359577178955, Feature Loss: 0.4069789946079254
+56it [00:18,  3.02it/s][140317578643264] 2024-08-14 15:30:46,842 [INFO] root: Logits Loss: 2.448881149291992, Feature Loss: 0.543959379196167
+57it [00:18,  3.00it/s][140317578643264] 2024-08-14 15:30:47,171 [INFO] root: Logits Loss: 3.2103564739227295, Feature Loss: 0.6607590913772583
+58it [00:19,  3.02it/s][140317578643264] 2024-08-14 15:30:47,502 [INFO] root: Logits Loss: 3.3952720165252686, Feature Loss: 0.809244692325592
+59it [00:19,  3.02it/s][140317578643264] 2024-08-14 15:30:47,834 [INFO] root: Logits Loss: 1.332624912261963, Feature Loss: 0.16665281355381012
+60it [00:19,  3.01it/s][140317578643264] 2024-08-14 15:30:48,168 [INFO] root: Logits Loss: 5.212821006774902, Feature Loss: 1.3166593313217163
+61it [00:20,  3.01it/s][140317578643264] 2024-08-14 15:30:48,501 [INFO] root: Logits Loss: 2.9534199237823486, Feature Loss: 0.6571313738822937
+62it [00:20,  3.01it/s][140317578643264] 2024-08-14 15:30:48,831 [INFO] root: Logits Loss: 2.2173573970794678, Feature Loss: 0.36323732137680054
+63it [00:20,  3.01it/s][140317578643264] 2024-08-14 15:30:49,168 [INFO] root: Logits Loss: 5.164534091949463, Feature Loss: 1.156646728515625
+64it [00:21,  3.00it/s][140317578643264] 2024-08-14 15:30:49,500 [INFO] root: Logits Loss: 4.192007541656494, Feature Loss: 0.8465150594711304
+65it [00:21,  3.00it/s][140317578643264] 2024-08-14 15:30:49,829 [INFO] root: Logits Loss: 4.500300884246826, Feature Loss: 0.8561080694198608
+66it [00:21,  3.02it/s][140317578643264] 2024-08-14 15:30:50,161 [INFO] root: Logits Loss: 1.4522655010223389, Feature Loss: 0.18364208936691284
+67it [00:22,  3.01it/s][140317578643264] 2024-08-14 15:30:50,494 [INFO] root: Logits Loss: 2.680795192718506, Feature Loss: 0.5528913140296936
+68it [00:22,  3.01it/s][140317578643264] 2024-08-14 15:30:50,824 [INFO] root: Logits Loss: 2.3291027545928955, Feature Loss: 0.40509361028671265
+69it [00:22,  3.02it/s][140317578643264] 2024-08-14 15:30:51,157 [INFO] root: Logits Loss: 2.641767740249634, Feature Loss: 0.5248278975486755
+70it [00:23,  3.01it/s][140317578643264] 2024-08-14 15:30:51,493 [INFO] root: Logits Loss: 1.2052826881408691, Feature Loss: 0.11932355910539627
+71it [00:23,  3.00it/s][140317578643264] 2024-08-14 15:30:51,829 [INFO] root: Logits Loss: 2.342904806137085, Feature Loss: 0.4328664541244507
+72it [00:23,  2.99it/s][140317578643264] 2024-08-14 15:30:52,164 [INFO] root: Logits Loss: 3.8233704566955566, Feature Loss: 0.7416374683380127
+73it [00:24,  2.99it/s][140317578643264] 2024-08-14 15:30:52,497 [INFO] root: Logits Loss: 2.2783610820770264, Feature Loss: 0.42354944348335266
+74it [00:24,  3.00it/s][140317578643264] 2024-08-14 15:30:52,828 [INFO] root: Logits Loss: 1.1857222318649292, Feature Loss: 0.1032629907131195
+75it [00:24,  3.00it/s][140317578643264] 2024-08-14 15:30:53,163 [INFO] root: Logits Loss: 2.277782917022705, Feature Loss: 0.4446883201599121
+76it [00:25,  3.00it/s][140317578643264] 2024-08-14 15:30:53,496 [INFO] root: Logits Loss: 1.6068087816238403, Feature Loss: 0.19085168838500977
+77it [00:25,  3.00it/s][140317578643264] 2024-08-14 15:30:53,827 [INFO] root: Logits Loss: 4.087648391723633, Feature Loss: 0.7260473966598511
+78it [00:25,  3.01it/s][140317578643264] 2024-08-14 15:30:54,159 [INFO] root: Logits Loss: 1.4882124662399292, Feature Loss: 0.16064107418060303
+79it [00:26,  3.00it/s][140317578643264] 2024-08-14 15:30:54,496 [INFO] root: Logits Loss: 2.8284504413604736, Feature Loss: 0.4670022428035736
+80it [00:26,  3.00it/s][140317578643264] 2024-08-14 15:30:54,827 [INFO] root: Logits Loss: 2.2503302097320557, Feature Loss: 0.37455809116363525
+81it [00:26,  3.02it/s][140317578643264] 2024-08-14 15:30:55,158 [INFO] root: Logits Loss: 1.8027132749557495, Feature Loss: 0.34850871562957764
+82it [00:27,  3.02it/s][140317578643264] 2024-08-14 15:30:55,490 [INFO] root: Logits Loss: 2.790731906890869, Feature Loss: 0.5752604007720947
+83it [00:27,  3.01it/s][140317578643264] 2024-08-14 15:30:55,822 [INFO] root: Logits Loss: 4.573841571807861, Feature Loss: 1.0203323364257812
+84it [00:27,  3.01it/s][140317578643264] 2024-08-14 15:30:56,153 [INFO] root: Logits Loss: 1.4019824266433716, Feature Loss: 0.17872363328933716
+85it [00:28,  3.01it/s][140317578643264] 2024-08-14 15:30:56,490 [INFO] root: Logits Loss: 3.315443992614746, Feature Loss: 0.5739706158638
+86it [00:28,  3.00it/s][140317578643264] 2024-08-14 15:30:56,827 [INFO] root: Logits Loss: 1.3251910209655762, Feature Loss: 0.18027663230895996
+87it [00:28,  2.99it/s][140317578643264] 2024-08-14 15:30:57,160 [INFO] root: Logits Loss: 3.0076541900634766, Feature Loss: 0.6058275699615479
+88it [00:29,  2.98it/s][140317578643264] 2024-08-14 15:30:57,491 [INFO] root: Logits Loss: 1.779213786125183, Feature Loss: 0.33168795704841614
+89it [00:29,  3.00it/s][140317578643264] 2024-08-14 15:30:57,822 [INFO] root: Logits Loss: 2.488377332687378, Feature Loss: 0.4255804419517517
+90it [00:29,  3.01it/s][140317578643264] 2024-08-14 15:30:58,158 [INFO] root: Logits Loss: 3.9180052280426025, Feature Loss: 0.9124433994293213
+91it [00:30,  3.00it/s][140317578643264] 2024-08-14 15:30:58,496 [INFO] root: Logits Loss: 5.0209197998046875, Feature Loss: 1.1639689207077026
+92it [00:30,  2.99it/s][140317578643264] 2024-08-14 15:30:58,828 [INFO] root: Logits Loss: 5.274620056152344, Feature Loss: 1.2162981033325195
+93it [00:30,  2.99it/s][140317578643264] 2024-08-14 15:30:59,162 [INFO] root: Logits Loss: 3.3151838779449463, Feature Loss: 0.6692498326301575
+94it [00:31,  2.99it/s][140317578643264] 2024-08-14 15:30:59,499 [INFO] root: Logits Loss: 3.2214202880859375, Feature Loss: 0.6341624855995178
+95it [00:31,  2.98it/s]95it [00:31,  3.01it/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[140317578643264] 2024-08-14 15:31:02,324 [INFO] root: Validation Clean Loss:0.27983148097991944, Valiation Poison Loss:1.786729598045349, Valiation Clean Acc:0.909375, Validation Poison Acc:0.5251362526362525
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+0it [00:00, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[140317578643264] 2024-08-14 15:31:02,836 [INFO] root: Logits Loss: 0.9364691376686096, Feature Loss: 0.05843436345458031
+1it [00:00,  3.54it/s][140317578643264] 2024-08-14 15:31:03,174 [INFO] root: Logits Loss: 2.3934829235076904, Feature Loss: 0.38881492614746094
+2it [00:00,  3.14it/s][140317578643264] 2024-08-14 15:31:03,508 [INFO] root: Logits Loss: 2.3741140365600586, Feature Loss: 0.5642737746238708
+3it [00:00,  3.07it/s][140317578643264] 2024-08-14 15:31:03,840 [INFO] root: Logits Loss: 1.9517812728881836, Feature Loss: 0.26871997117996216
+4it [00:01,  3.05it/s][140317578643264] 2024-08-14 15:31:04,174 [INFO] root: Logits Loss: 1.9689579010009766, Feature Loss: 0.35356223583221436
+5it [00:01,  3.06it/s][140317578643264] 2024-08-14 15:31:04,510 [INFO] root: Logits Loss: 2.0564470291137695, Feature Loss: 0.25661012530326843
+6it [00:01,  3.01it/s][140317578643264] 2024-08-14 15:31:04,845 [INFO] root: Logits Loss: 2.344865083694458, Feature Loss: 0.4519316554069519
+7it [00:02,  3.04it/s][140317578643264] 2024-08-14 15:31:05,179 [INFO] root: Logits Loss: 2.116211414337158, Feature Loss: 0.2793971300125122
+8it [00:02,  3.03it/s][140317578643264] 2024-08-14 15:31:05,513 [INFO] root: Logits Loss: 3.0897161960601807, Feature Loss: 0.6062344312667847
+9it [00:02,  3.01it/s][140317578643264] 2024-08-14 15:31:05,848 [INFO] root: Logits Loss: 1.323875069618225, Feature Loss: 0.21074572205543518
+10it [00:03,  3.01it/s][140317578643264] 2024-08-14 15:31:06,179 [INFO] root: Logits Loss: 2.2834970951080322, Feature Loss: 0.4381890892982483
+11it [00:03,  3.01it/s][140317578643264] 2024-08-14 15:31:06,514 [INFO] root: Logits Loss: 3.3186964988708496, Feature Loss: 0.44044461846351624
+12it [00:03,  3.00it/s][140317578643264] 2024-08-14 15:31:06,854 [INFO] root: Logits Loss: 1.6716499328613281, Feature Loss: 0.1023058295249939
+13it [00:04,  2.99it/s][140317578643264] 2024-08-14 15:31:07,186 [INFO] root: Logits Loss: 1.937854528427124, Feature Loss: 0.0757104679942131
+14it [00:04,  2.99it/s][140317578643264] 2024-08-14 15:31:07,521 [INFO] root: Logits Loss: 0.9491491913795471, Feature Loss: 0.014230522327125072
+15it [00:04,  2.99it/s][140317578643264] 2024-08-14 15:31:07,854 [INFO] root: Logits Loss: 1.3467841148376465, Feature Loss: 0.16198700666427612
+16it [00:05,  3.00it/s][140317578643264] 2024-08-14 15:31:08,186 [INFO] root: Logits Loss: 2.5162105560302734, Feature Loss: 0.5688809752464294
+17it [00:05,  3.00it/s][140317578643264] 2024-08-14 15:31:08,517 [INFO] root: Logits Loss: 3.238476037979126, Feature Loss: 0.7027897238731384
+18it [00:05,  3.00it/s][140317578643264] 2024-08-14 15:31:08,854 [INFO] root: Logits Loss: 0.62239009141922, Feature Loss: 0.004323076456785202
+19it [00:06,  2.99it/s][140317578643264] 2024-08-14 15:31:09,185 [INFO] root: Logits Loss: 2.3076493740081787, Feature Loss: 0.49322372674942017
+20it [00:06,  3.00it/s][140317578643264] 2024-08-14 15:31:09,516 [INFO] root: Logits Loss: 1.1026339530944824, Feature Loss: 0.11042957007884979
+21it [00:06,  2.98it/s][140317578643264] 2024-08-14 15:31:09,855 [INFO] root: Logits Loss: 4.142527103424072, Feature Loss: 1.1098864078521729
+22it [00:07,  2.98it/s][140317578643264] 2024-08-14 15:31:10,187 [INFO] root: Logits Loss: 1.6445845365524292, Feature Loss: 0.2669711709022522
+23it [00:07,  2.99it/s][140317578643264] 2024-08-14 15:31:10,517 [INFO] root: Logits Loss: 1.1673672199249268, Feature Loss: 0.22464174032211304
+24it [00:07,  3.02it/s][140317578643264] 2024-08-14 15:31:10,851 [INFO] root: Logits Loss: 2.701918840408325, Feature Loss: 0.7752441167831421
+25it [00:08,  3.01it/s][140317578643264] 2024-08-14 15:31:11,184 [INFO] root: Logits Loss: 2.046107530593872, Feature Loss: 0.4371945858001709
+26it [00:08,  2.99it/s][140317578643264] 2024-08-14 15:31:11,517 [INFO] root: Logits Loss: 1.344995379447937, Feature Loss: 0.15990330278873444
+27it [00:08,  2.98it/s][140317578643264] 2024-08-14 15:31:11,850 [INFO] root: Logits Loss: 3.100057363510132, Feature Loss: 0.7315991520881653
+28it [00:09,  3.00it/s][140317578643264] 2024-08-14 15:31:12,187 [INFO] root: Logits Loss: 2.494518756866455, Feature Loss: 0.5103551745414734
+29it [00:09,  3.01it/s][140317578643264] 2024-08-14 15:31:12,521 [INFO] root: Logits Loss: 1.8043146133422852, Feature Loss: 0.36485007405281067
+30it [00:09,  3.01it/s][140317578643264] 2024-08-14 15:31:12,856 [INFO] root: Logits Loss: 0.5142244100570679, Feature Loss: 0.013688459992408752
+31it [00:10,  3.00it/s][140317578643264] 2024-08-14 15:31:13,191 [INFO] root: Logits Loss: 1.5294541120529175, Feature Loss: 0.3951481580734253
+32it [00:10,  3.00it/s][140317578643264] 2024-08-14 15:31:13,529 [INFO] root: Logits Loss: 1.2670538425445557, Feature Loss: 0.2394966334104538
+33it [00:10,  2.99it/s][140317578643264] 2024-08-14 15:31:13,860 [INFO] root: Logits Loss: 1.152258276939392, Feature Loss: 0.14437706768512726
+34it [00:11,  3.00it/s][140317578643264] 2024-08-14 15:31:14,196 [INFO] root: Logits Loss: 2.020920753479004, Feature Loss: 0.40365275740623474
+35it [00:11,  3.00it/s][140317578643264] 2024-08-14 15:31:14,530 [INFO] root: Logits Loss: 1.2141599655151367, Feature Loss: 0.19317372143268585
+36it [00:11,  3.00it/s][140317578643264] 2024-08-14 15:31:14,868 [INFO] root: Logits Loss: 2.746619701385498, Feature Loss: 0.6577942967414856
+37it [00:12,  2.99it/s][140317578643264] 2024-08-14 15:31:15,204 [INFO] root: Logits Loss: 3.1358144283294678, Feature Loss: 0.8688117861747742
+38it [00:12,  2.98it/s][140317578643264] 2024-08-14 15:31:15,537 [INFO] root: Logits Loss: 1.9950817823410034, Feature Loss: 0.4486677646636963
+39it [00:12,  2.99it/s][140317578643264] 2024-08-14 15:31:15,875 [INFO] root: Logits Loss: 1.7765171527862549, Feature Loss: 0.2967519462108612
+40it [00:13,  2.98it/s][140317578643264] 2024-08-14 15:31:16,211 [INFO] root: Logits Loss: 3.061924695968628, Feature Loss: 0.5413487553596497
+41it [00:13,  2.98it/s][140317578643264] 2024-08-14 15:31:16,545 [INFO] root: Logits Loss: 2.0262789726257324, Feature Loss: 0.43391382694244385
+42it [00:13,  2.99it/s][140317578643264] 2024-08-14 15:31:16,882 [INFO] root: Logits Loss: 0.4360474646091461, Feature Loss: 0.0025624020490795374
+43it [00:14,  2.98it/s][140317578643264] 2024-08-14 15:31:17,221 [INFO] root: Logits Loss: 2.626875877380371, Feature Loss: 0.5956839323043823
+44it [00:14,  2.97it/s][140317578643264] 2024-08-14 15:31:17,553 [INFO] root: Logits Loss: 1.752609372138977, Feature Loss: 0.33978015184402466
+45it [00:14,  2.98it/s][140317578643264] 2024-08-14 15:31:17,885 [INFO] root: Logits Loss: 0.9613629579544067, Feature Loss: 0.10588203370571136
+46it [00:15,  2.99it/s][140317578643264] 2024-08-14 15:31:18,219 [INFO] root: Logits Loss: 2.3626017570495605, Feature Loss: 0.4229432940483093
+47it [00:15,  2.99it/s][140317578643264] 2024-08-14 15:31:18,552 [INFO] root: Logits Loss: 2.781883716583252, Feature Loss: 0.6301433444023132
+48it [00:15,  3.00it/s][140317578643264] 2024-08-14 15:31:18,884 [INFO] root: Logits Loss: 1.1433297395706177, Feature Loss: 0.1622343510389328
+49it [00:16,  3.00it/s][140317578643264] 2024-08-14 15:31:19,221 [INFO] root: Logits Loss: 0.8920698165893555, Feature Loss: 0.20549359917640686
+50it [00:16,  2.99it/s][140317578643264] 2024-08-14 15:31:19,554 [INFO] root: Logits Loss: 1.5949633121490479, Feature Loss: 0.2936479151248932
+51it [00:16,  2.99it/s][140317578643264] 2024-08-14 15:31:19,888 [INFO] root: Logits Loss: 3.2830753326416016, Feature Loss: 0.7523660063743591
+52it [00:17,  2.99it/s][140317578643264] 2024-08-14 15:31:20,224 [INFO] root: Logits Loss: 3.848802328109741, Feature Loss: 0.9444867968559265
+53it [00:17,  2.99it/s][140317578643264] 2024-08-14 15:31:20,556 [INFO] root: Logits Loss: 2.4176723957061768, Feature Loss: 0.6006076335906982
+54it [00:17,  3.00it/s][140317578643264] 2024-08-14 15:31:20,889 [INFO] root: Logits Loss: 2.6769890785217285, Feature Loss: 0.5860573053359985
+55it [00:18,  3.00it/s][140317578643264] 2024-08-14 15:31:21,225 [INFO] root: Logits Loss: 2.7902722358703613, Feature Loss: 0.6508517265319824
+56it [00:18,  2.99it/s][140317578643264] 2024-08-14 15:31:21,563 [INFO] root: Logits Loss: 2.1092212200164795, Feature Loss: 0.3342929780483246
+57it [00:18,  2.98it/s][140317578643264] 2024-08-14 15:31:21,897 [INFO] root: Logits Loss: 2.378906011581421, Feature Loss: 0.44240593910217285
+58it [00:19,  2.99it/s][140317578643264] 2024-08-14 15:31:22,234 [INFO] root: Logits Loss: 2.7089145183563232, Feature Loss: 0.5632816553115845
+59it [00:19,  2.98it/s][140317578643264] 2024-08-14 15:31:22,568 [INFO] root: Logits Loss: 2.093885898590088, Feature Loss: 0.3929261863231659
+60it [00:19,  2.98it/s][140317578643264] 2024-08-14 15:31:22,903 [INFO] root: Logits Loss: 2.653512954711914, Feature Loss: 0.5795451402664185
+61it [00:20,  2.99it/s][140317578643264] 2024-08-14 15:31:23,235 [INFO] root: Logits Loss: 1.0402259826660156, Feature Loss: 0.10443765670061111
+62it [00:20,  3.00it/s][140317578643264] 2024-08-14 15:31:23,569 [INFO] root: Logits Loss: 0.8794246912002563, Feature Loss: 0.19649553298950195
+63it [00:20,  3.00it/s][140317578643264] 2024-08-14 15:31:23,906 [INFO] root: Logits Loss: 2.2187108993530273, Feature Loss: 0.4532301723957062
+64it [00:21,  2.99it/s][140317578643264] 2024-08-14 15:31:24,244 [INFO] root: Logits Loss: 2.9186577796936035, Feature Loss: 0.6919141411781311
+65it [00:21,  2.98it/s][140317578643264] 2024-08-14 15:31:24,582 [INFO] root: Logits Loss: 1.3601773977279663, Feature Loss: 0.1291365623474121
+66it [00:22,  2.97it/s][140317578643264] 2024-08-14 15:31:24,914 [INFO] root: Logits Loss: 2.086085796356201, Feature Loss: 0.3070410490036011
+67it [00:22,  2.98it/s][140317578643264] 2024-08-14 15:31:25,251 [INFO] root: Logits Loss: 1.5515979528427124, Feature Loss: 0.2984035313129425
+68it [00:22,  2.98it/s][140317578643264] 2024-08-14 15:31:25,587 [INFO] root: Logits Loss: 2.618985891342163, Feature Loss: 0.6093103885650635
+69it [00:23,  2.98it/s][140317578643264] 2024-08-14 15:31:25,923 [INFO] root: Logits Loss: 2.581277847290039, Feature Loss: 0.5312250852584839
+70it [00:23,  2.98it/s][140317578643264] 2024-08-14 15:31:26,258 [INFO] root: Logits Loss: 1.7654995918273926, Feature Loss: 0.2565446197986603
+71it [00:23,  2.98it/s][140317578643264] 2024-08-14 15:31:26,590 [INFO] root: Logits Loss: 1.9930765628814697, Feature Loss: 0.37360620498657227
+72it [00:24,  2.99it/s][140317578643264] 2024-08-14 15:31:26,923 [INFO] root: Logits Loss: 1.0575639009475708, Feature Loss: 0.11322539299726486
+73it [00:24,  2.99it/s][140317578643264] 2024-08-14 15:31:27,257 [INFO] root: Logits Loss: 2.6057322025299072, Feature Loss: 0.6048690676689148
+74it [00:24,  2.99it/s][140317578643264] 2024-08-14 15:31:27,594 [INFO] root: Logits Loss: 1.7067766189575195, Feature Loss: 0.3077475130558014
+75it [00:25,  2.98it/s][140317578643264] 2024-08-14 15:31:27,927 [INFO] root: Logits Loss: 2.9012393951416016, Feature Loss: 0.7238070368766785
+76it [00:25,  2.99it/s][140317578643264] 2024-08-14 15:31:28,263 [INFO] root: Logits Loss: 1.3270732164382935, Feature Loss: 0.3071838915348053
+77it [00:25,  2.99it/s][140317578643264] 2024-08-14 15:31:28,593 [INFO] root: Logits Loss: 1.4753196239471436, Feature Loss: 0.25686582922935486
+78it [00:26,  3.00it/s][140317578643264] 2024-08-14 15:31:28,925 [INFO] root: Logits Loss: 0.9542547464370728, Feature Loss: 0.13942351937294006
+79it [00:26,  3.00it/s][140317578643264] 2024-08-14 15:31:29,260 [INFO] root: Logits Loss: 1.7131723165512085, Feature Loss: 0.3539315462112427
+80it [00:26,  3.00it/s][140317578643264] 2024-08-14 15:31:29,592 [INFO] root: Logits Loss: 1.5549421310424805, Feature Loss: 0.32948607206344604
+81it [00:27,  3.00it/s][140317578643264] 2024-08-14 15:31:29,924 [INFO] root: Logits Loss: 2.4232938289642334, Feature Loss: 0.6835129857063293
+82it [00:27,  2.94it/s][140317578643264] 2024-08-14 15:31:30,262 [INFO] root: Logits Loss: 1.0364888906478882, Feature Loss: 0.16688764095306396
+83it [00:27,  2.97it/s][140317578643264] 2024-08-14 15:31:30,596 [INFO] root: Logits Loss: 4.239788055419922, Feature Loss: 1.1948726177215576
+84it [00:28,  2.98it/s][140317578643264] 2024-08-14 15:31:30,929 [INFO] root: Logits Loss: 4.647378921508789, Feature Loss: 1.1720032691955566
+85it [00:28,  3.00it/s][140317578643264] 2024-08-14 15:31:31,261 [INFO] root: Logits Loss: 0.36064720153808594, Feature Loss: 0.005038286559283733
+86it [00:28,  3.01it/s][140317578643264] 2024-08-14 15:31:31,593 [INFO] root: Logits Loss: 2.0473508834838867, Feature Loss: 0.44712033867836
+87it [00:29,  3.02it/s][140317578643264] 2024-08-14 15:31:31,929 [INFO] root: Logits Loss: 3.067563772201538, Feature Loss: 0.6882983446121216
+88it [00:29,  3.00it/s][140317578643264] 2024-08-14 15:31:32,264 [INFO] root: Logits Loss: 3.3438048362731934, Feature Loss: 0.8393262624740601
+89it [00:29,  2.94it/s][140317578643264] 2024-08-14 15:31:32,597 [INFO] root: Logits Loss: 3.0921528339385986, Feature Loss: 0.7443863749504089
+90it [00:30,  2.99it/s][140317578643264] 2024-08-14 15:31:32,929 [INFO] root: Logits Loss: 2.027756929397583, Feature Loss: 0.38877004384994507
+91it [00:30,  3.01it/s][140317578643264] 2024-08-14 15:31:33,261 [INFO] root: Logits Loss: 2.390904426574707, Feature Loss: 0.35311177372932434
+92it [00:30,  3.01it/s][140317578643264] 2024-08-14 15:31:33,599 [INFO] root: Logits Loss: 1.3758150339126587, Feature Loss: 0.04895751550793648
+93it [00:31,  3.00it/s][140317578643264] 2024-08-14 15:31:33,936 [INFO] root: Logits Loss: 1.9805326461791992, Feature Loss: 0.31142476201057434
+94it [00:31,  2.99it/s][140317578643264] 2024-08-14 15:31:34,275 [INFO] root: Logits Loss: 1.1532800197601318, Feature Loss: 0.01582864299416542
+95it [00:31,  2.98it/s]95it [00:31,  2.99it/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[140317578643264] 2024-08-14 15:31:37,118 [INFO] root: Validation Clean Loss:0.18535431623458862, Valiation Poison Loss:2.3621991991996767, Valiation Clean Acc:0.925, Validation Poison Acc:0.26654789654789657
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+0it [00:00, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[140317578643264] 2024-08-14 15:31:37,636 [INFO] root: Logits Loss: 0.9103851318359375, Feature Loss: 0.05286262556910515
+1it [00:00,  3.28it/s][140317578643264] 2024-08-14 15:31:37,971 [INFO] root: Logits Loss: 0.4975908398628235, Feature Loss: 0.00579229136928916
+2it [00:00,  3.15it/s][140317578643264] 2024-08-14 15:31:38,305 [INFO] root: Logits Loss: 0.9110899567604065, Feature Loss: 0.07598899304866791
+3it [00:00,  3.11it/s][140317578643264] 2024-08-14 15:31:38,637 [INFO] root: Logits Loss: 0.6109755635261536, Feature Loss: 0.01245173905044794
+4it [00:01,  3.07it/s][140317578643264] 2024-08-14 15:31:38,975 [INFO] root: Logits Loss: 1.1216716766357422, Feature Loss: 0.20386384427547455
+5it [00:01,  3.03it/s][140317578643264] 2024-08-14 15:31:39,313 [INFO] root: Logits Loss: 4.858691692352295, Feature Loss: 1.1462427377700806
+6it [00:01,  3.00it/s][140317578643264] 2024-08-14 15:31:39,646 [INFO] root: Logits Loss: 1.4105489253997803, Feature Loss: 0.182819664478302
+7it [00:02,  3.01it/s][140317578643264] 2024-08-14 15:31:39,983 [INFO] root: Logits Loss: 3.050752639770508, Feature Loss: 0.8249782919883728
+8it [00:02,  3.01it/s][140317578643264] 2024-08-14 15:31:40,315 [INFO] root: Logits Loss: 1.7429802417755127, Feature Loss: 0.30360522866249084
+9it [00:02,  3.01it/s][140317578643264] 2024-08-14 15:31:40,650 [INFO] root: Logits Loss: 1.2199382781982422, Feature Loss: 0.21323281526565552
+10it [00:03,  3.00it/s][140317578643264] 2024-08-14 15:31:40,982 [INFO] root: Logits Loss: 2.4826371669769287, Feature Loss: 0.6335845589637756
+11it [00:03,  3.01it/s][140317578643264] 2024-08-14 15:31:41,316 [INFO] root: Logits Loss: 2.895939350128174, Feature Loss: 0.672173261642456
+12it [00:03,  3.00it/s][140317578643264] 2024-08-14 15:31:41,647 [INFO] root: Logits Loss: 0.4185012876987457, Feature Loss: 0.008331986144185066
+13it [00:04,  3.01it/s][140317578643264] 2024-08-14 15:31:41,985 [INFO] root: Logits Loss: 2.091754674911499, Feature Loss: 0.4413711726665497
+14it [00:04,  2.99it/s][140317578643264] 2024-08-14 15:31:42,323 [INFO] root: Logits Loss: 1.7753303050994873, Feature Loss: 0.3298286199569702
+15it [00:04,  2.98it/s][140317578643264] 2024-08-14 15:31:42,656 [INFO] root: Logits Loss: 2.2525081634521484, Feature Loss: 0.3891599476337433
+16it [00:05,  2.99it/s][140317578643264] 2024-08-14 15:31:42,988 [INFO] root: Logits Loss: 1.3276338577270508, Feature Loss: 0.2575792372226715
+17it [00:05,  3.00it/s][140317578643264] 2024-08-14 15:31:43,321 [INFO] root: Logits Loss: 1.0259307622909546, Feature Loss: 0.1839059740304947
+18it [00:05,  3.00it/s][140317578643264] 2024-08-14 15:31:43,656 [INFO] root: Logits Loss: 2.244757890701294, Feature Loss: 0.4862866997718811
+19it [00:06,  3.00it/s][140317578643264] 2024-08-14 15:31:43,989 [INFO] root: Logits Loss: 1.5479631423950195, Feature Loss: 0.2643832862377167
+20it [00:06,  3.00it/s][140317578643264] 2024-08-14 15:31:44,321 [INFO] root: Logits Loss: 2.55283522605896, Feature Loss: 0.5768684148788452
+21it [00:06,  3.01it/s][140317578643264] 2024-08-14 15:31:44,661 [INFO] root: Logits Loss: 1.8377221822738647, Feature Loss: 0.39656177163124084
+22it [00:07,  2.99it/s][140317578643264] 2024-08-14 15:31:44,995 [INFO] root: Logits Loss: 2.503081798553467, Feature Loss: 0.5829100608825684
+23it [00:07,  2.98it/s][140317578643264] 2024-08-14 15:31:45,335 [INFO] root: Logits Loss: 0.9305875897407532, Feature Loss: 0.06333032995462418
+24it [00:07,  2.98it/s][140317578643264] 2024-08-14 15:31:45,674 [INFO] root: Logits Loss: 1.039885401725769, Feature Loss: 0.22957384586334229
+25it [00:08,  2.97it/s][140317578643264] 2024-08-14 15:31:46,013 [INFO] root: Logits Loss: 1.388071894645691, Feature Loss: 0.36367636919021606
+26it [00:08,  2.97it/s][140317578643264] 2024-08-14 15:31:46,349 [INFO] root: Logits Loss: 2.2551193237304688, Feature Loss: 0.48962974548339844
+27it [00:08,  2.97it/s][140317578643264] 2024-08-14 15:31:46,684 [INFO] root: Logits Loss: 1.7186787128448486, Feature Loss: 0.3228650987148285
+28it [00:09,  2.98it/s][140317578643264] 2024-08-14 15:31:47,017 [INFO] root: Logits Loss: 0.8085104823112488, Feature Loss: 0.036521099507808685
+29it [00:09,  2.98it/s][140317578643264] 2024-08-14 15:31:47,350 [INFO] root: Logits Loss: 2.066218614578247, Feature Loss: 0.3363966643810272
+30it [00:09,  2.99it/s][140317578643264] 2024-08-14 15:31:47,689 [INFO] root: Logits Loss: 0.81117182970047, Feature Loss: 0.04453868418931961
+31it [00:10,  2.98it/s][140317578643264] 2024-08-14 15:31:48,021 [INFO] root: Logits Loss: 0.8632642030715942, Feature Loss: 0.143314391374588
+32it [00:10,  2.99it/s][140317578643264] 2024-08-14 15:31:48,352 [INFO] root: Logits Loss: 0.2674669027328491, Feature Loss: 0.0040881335735321045
+33it [00:10,  2.99it/s][140317578643264] 2024-08-14 15:31:48,684 [INFO] root: Logits Loss: 1.941214680671692, Feature Loss: 0.415456622838974
+34it [00:11,  3.00it/s][140317578643264] 2024-08-14 15:31:49,017 [INFO] root: Logits Loss: 2.270146608352661, Feature Loss: 0.4728862941265106
+35it [00:11,  3.00it/s][140317578643264] 2024-08-14 15:31:49,355 [INFO] root: Logits Loss: 1.4763258695602417, Feature Loss: 0.4453793168067932
+36it [00:11,  2.99it/s][140317578643264] 2024-08-14 15:31:49,688 [INFO] root: Logits Loss: 0.2516482472419739, Feature Loss: 0.0007707385229878128
+37it [00:12,  2.99it/s][140317578643264] 2024-08-14 15:31:50,020 [INFO] root: Logits Loss: 2.3263590335845947, Feature Loss: 0.5864277482032776
+38it [00:12,  3.00it/s][140317578643264] 2024-08-14 15:31:50,358 [INFO] root: Logits Loss: 1.5543850660324097, Feature Loss: 0.32369887828826904
+39it [00:13,  2.99it/s][140317578643264] 2024-08-14 15:31:50,691 [INFO] root: Logits Loss: 1.5956405401229858, Feature Loss: 0.2901175022125244
+40it [00:13,  3.00it/s][140317578643264] 2024-08-14 15:31:51,023 [INFO] root: Logits Loss: 3.8098976612091064, Feature Loss: 1.0382592678070068
+41it [00:13,  3.00it/s][140317578643264] 2024-08-14 15:31:51,359 [INFO] root: Logits Loss: 0.9927194714546204, Feature Loss: 0.19500881433486938
+42it [00:13,  2.99it/s][140317578643264] 2024-08-14 15:31:51,695 [INFO] root: Logits Loss: 2.42453670501709, Feature Loss: 0.6056482791900635
+43it [00:14,  2.98it/s][140317578643264] 2024-08-14 15:31:52,026 [INFO] root: Logits Loss: 2.344027519226074, Feature Loss: 0.5067118406295776
+44it [00:14,  2.99it/s][140317578643264] 2024-08-14 15:31:52,359 [INFO] root: Logits Loss: 1.7709802389144897, Feature Loss: 0.13923673331737518
+45it [00:15,  2.99it/s][140317578643264] 2024-08-14 15:31:52,691 [INFO] root: Logits Loss: 2.174146890640259, Feature Loss: 0.49625760316848755
+46it [00:15,  3.00it/s][140317578643264] 2024-08-14 15:31:53,028 [INFO] root: Logits Loss: 3.647254705429077, Feature Loss: 0.8370565176010132
+47it [00:15,  2.99it/s][140317578643264] 2024-08-14 15:31:53,362 [INFO] root: Logits Loss: 1.1416922807693481, Feature Loss: 0.2108752280473709
+48it [00:16,  3.00it/s][140317578643264] 2024-08-14 15:31:53,699 [INFO] root: Logits Loss: 0.7400127053260803, Feature Loss: 0.14270955324172974
+49it [00:16,  2.99it/s][140317578643264] 2024-08-14 15:31:54,031 [INFO] root: Logits Loss: 0.3967578411102295, Feature Loss: 0.005283413454890251
+50it [00:16,  3.00it/s][140317578643264] 2024-08-14 15:31:54,363 [INFO] root: Logits Loss: 0.9663481116294861, Feature Loss: 0.08165813237428665
+51it [00:17,  3.00it/s][140317578643264] 2024-08-14 15:31:54,696 [INFO] root: Logits Loss: 2.7342963218688965, Feature Loss: 0.6450502872467041
+52it [00:17,  3.01it/s][140317578643264] 2024-08-14 15:31:55,028 [INFO] root: Logits Loss: 0.4633916914463043, Feature Loss: 0.009159080684185028
+53it [00:17,  3.01it/s][140317578643264] 2024-08-14 15:31:55,362 [INFO] root: Logits Loss: 1.7700817584991455, Feature Loss: 0.40858715772628784
+54it [00:18,  3.00it/s][140317578643264] 2024-08-14 15:31:55,694 [INFO] root: Logits Loss: 1.2286993265151978, Feature Loss: 0.2354639321565628
+55it [00:18,  3.01it/s][140317578643264] 2024-08-14 15:31:56,027 [INFO] root: Logits Loss: 1.3797324895858765, Feature Loss: 0.30948033928871155
+56it [00:18,  3.01it/s][140317578643264] 2024-08-14 15:31:56,359 [INFO] root: Logits Loss: 0.9505031704902649, Feature Loss: 0.20919016003608704
+57it [00:18,  3.01it/s][140317578643264] 2024-08-14 15:31:56,694 [INFO] root: Logits Loss: 1.0445387363433838, Feature Loss: 0.278145432472229
+58it [00:19,  3.00it/s][140317578643264] 2024-08-14 15:31:57,036 [INFO] root: Logits Loss: 0.7638260722160339, Feature Loss: 0.22249048948287964
+59it [00:19,  2.98it/s][140317578643264] 2024-08-14 15:31:57,376 [INFO] root: Logits Loss: 0.42739129066467285, Feature Loss: 0.10215746611356735
+60it [00:20,  2.97it/s][140317578643264] 2024-08-14 15:31:57,710 [INFO] root: Logits Loss: 0.24070711433887482, Feature Loss: 0.005678774323314428
+61it [00:20,  2.98it/s][140317578643264] 2024-08-14 15:31:58,042 [INFO] root: Logits Loss: 4.1228346824646, Feature Loss: 1.1769614219665527
+62it [00:20,  2.92it/s][140317578643264] 2024-08-14 15:31:58,377 [INFO] root: Logits Loss: 1.6384320259094238, Feature Loss: 0.3936677575111389
+63it [00:21,  2.97it/s][140317578643264] 2024-08-14 15:31:58,713 [INFO] root: Logits Loss: 0.11888176947832108, Feature Loss: 0.000693234265781939
+64it [00:21,  2.97it/s][140317578643264] 2024-08-14 15:31:59,053 [INFO] root: Logits Loss: 1.2408720254898071, Feature Loss: 0.2929689288139343
+65it [00:21,  2.98it/s][140317578643264] 2024-08-14 15:31:59,385 [INFO] root: Logits Loss: 1.6067851781845093, Feature Loss: 0.5233311057090759
+66it [00:22,  2.99it/s][140317578643264] 2024-08-14 15:31:59,720 [INFO] root: Logits Loss: 2.4869284629821777, Feature Loss: 0.9165217876434326
+67it [00:22,  2.99it/s][140317578643264] 2024-08-14 15:32:00,058 [INFO] root: Logits Loss: 0.1262606531381607, Feature Loss: 0.0003804567386396229
+68it [00:22,  2.99it/s][140317578643264] 2024-08-14 15:32:00,390 [INFO] root: Logits Loss: 0.7591485977172852, Feature Loss: 0.04355688393115997
+69it [00:23,  2.99it/s][140317578643264] 2024-08-14 15:32:00,725 [INFO] root: Logits Loss: 0.20959894359111786, Feature Loss: 0.0033843573182821274
+70it [00:23,  3.00it/s][140317578643264] 2024-08-14 15:32:01,059 [INFO] root: Logits Loss: 1.0692096948623657, Feature Loss: 0.24804386496543884
+71it [00:23,  3.00it/s][140317578643264] 2024-08-14 15:32:01,394 [INFO] root: Logits Loss: 1.8466423749923706, Feature Loss: 0.47539448738098145
+72it [00:24,  3.00it/s][140317578643264] 2024-08-14 15:32:01,726 [INFO] root: Logits Loss: 1.3589316606521606, Feature Loss: 0.26033028960227966
+73it [00:24,  3.00it/s][140317578643264] 2024-08-14 15:32:02,059 [INFO] root: Logits Loss: 0.23131796717643738, Feature Loss: 0.0008119317935779691
+74it [00:24,  3.00it/s][140317578643264] 2024-08-14 15:32:02,391 [INFO] root: Logits Loss: 1.9882251024246216, Feature Loss: 0.41926395893096924
+75it [00:25,  3.01it/s][140317578643264] 2024-08-14 15:32:02,724 [INFO] root: Logits Loss: 1.6935491561889648, Feature Loss: 0.48179662227630615
+76it [00:25,  3.01it/s][140317578643264] 2024-08-14 15:32:03,059 [INFO] root: Logits Loss: 1.4692139625549316, Feature Loss: 0.2552407383918762
+77it [00:25,  3.00it/s][140317578643264] 2024-08-14 15:32:03,395 [INFO] root: Logits Loss: 0.10161397606134415, Feature Loss: 0.0003099623427260667
+78it [00:26,  2.99it/s][140317578643264] 2024-08-14 15:32:03,733 [INFO] root: Logits Loss: 1.055742621421814, Feature Loss: 0.24073751270771027
+79it [00:26,  2.98it/s][140317578643264] 2024-08-14 15:32:04,064 [INFO] root: Logits Loss: 1.58162260055542, Feature Loss: 0.42189526557922363
+80it [00:26,  2.99it/s][140317578643264] 2024-08-14 15:32:04,399 [INFO] root: Logits Loss: 1.4458520412445068, Feature Loss: 0.3129271864891052
+81it [00:27,  2.99it/s][140317578643264] 2024-08-14 15:32:04,732 [INFO] root: Logits Loss: 2.2361819744110107, Feature Loss: 0.5912712812423706
+82it [00:27,  2.99it/s][140317578643264] 2024-08-14 15:32:05,070 [INFO] root: Logits Loss: 0.11868290603160858, Feature Loss: 0.00023236685956362635
+83it [00:27,  2.98it/s][140317578643264] 2024-08-14 15:32:05,405 [INFO] root: Logits Loss: 3.414001703262329, Feature Loss: 0.980489194393158
+84it [00:28,  2.98it/s][140317578643264] 2024-08-14 15:32:05,740 [INFO] root: Logits Loss: 1.1226471662521362, Feature Loss: 0.2308029681444168
+85it [00:28,  2.98it/s][140317578643264] 2024-08-14 15:32:06,074 [INFO] root: Logits Loss: 2.0101282596588135, Feature Loss: 0.5042524337768555
+86it [00:28,  2.99it/s][140317578643264] 2024-08-14 15:32:06,408 [INFO] root: Logits Loss: 2.1976335048675537, Feature Loss: 0.5695000290870667
+87it [00:29,  2.99it/s][140317578643264] 2024-08-14 15:32:06,740 [INFO] root: Logits Loss: 1.660468578338623, Feature Loss: 0.40900522470474243
+88it [00:29,  3.00it/s][140317578643264] 2024-08-14 15:32:07,076 [INFO] root: Logits Loss: 0.15536347031593323, Feature Loss: 0.0022095288150012493
+89it [00:29,  2.99it/s][140317578643264] 2024-08-14 15:32:07,409 [INFO] root: Logits Loss: 0.9774070978164673, Feature Loss: 0.22643597424030304
+90it [00:30,  2.99it/s][140317578643264] 2024-08-14 15:32:07,747 [INFO] root: Logits Loss: 0.17064769566059113, Feature Loss: 0.0007456394378095865
+91it [00:30,  2.98it/s][140317578643264] 2024-08-14 15:32:08,085 [INFO] root: Logits Loss: 1.9623957872390747, Feature Loss: 0.6103399991989136
+92it [00:30,  2.98it/s][140317578643264] 2024-08-14 15:32:08,419 [INFO] root: Logits Loss: 1.6202988624572754, Feature Loss: 0.35103467106819153
+93it [00:31,  2.98it/s][140317578643264] 2024-08-14 15:32:08,755 [INFO] root: Logits Loss: 2.102194309234619, Feature Loss: 0.46443068981170654
+94it [00:31,  2.98it/s][140317578643264] 2024-08-14 15:32:09,088 [INFO] root: Logits Loss: 1.8637157678604126, Feature Loss: 0.35552653670310974
+95it [00:31,  2.99it/s]95it [00:31,  2.99it/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[140317578643264] 2024-08-14 15:32:11,968 [INFO] root: Validation Clean Loss:0.24276382923126222, Valiation Poison Loss:0.6299340616358677, Valiation Clean Acc:0.940625, Validation Poison Acc:0.8816539016539018
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+0it [00:00, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[140317578643264] 2024-08-14 15:32:12,488 [INFO] root: Logits Loss: 0.18615804612636566, Feature Loss: 0.0006660895887762308
+1it [00:00,  3.58it/s][140317578643264] 2024-08-14 15:32:12,821 [INFO] root: Logits Loss: 1.756685733795166, Feature Loss: 0.43113967776298523
+2it [00:00,  3.21it/s][140317578643264] 2024-08-14 15:32:13,154 [INFO] root: Logits Loss: 0.7315133810043335, Feature Loss: 0.11732233315706253
+3it [00:00,  3.12it/s][140317578643264] 2024-08-14 15:32:13,491 [INFO] root: Logits Loss: 0.4493041932582855, Feature Loss: 0.07757945358753204
+4it [00:01,  3.06it/s][140317578643264] 2024-08-14 15:32:13,829 [INFO] root: Logits Loss: 2.7752227783203125, Feature Loss: 0.6090030074119568
+5it [00:01,  3.03it/s][140317578643264] 2024-08-14 15:32:14,164 [INFO] root: Logits Loss: 1.3783270120620728, Feature Loss: 0.2895437479019165
+6it [00:01,  3.01it/s][140317578643264] 2024-08-14 15:32:14,496 [INFO] root: Logits Loss: 1.857666254043579, Feature Loss: 0.46698591113090515
+7it [00:02,  3.00it/s][140317578643264] 2024-08-14 15:32:14,830 [INFO] root: Logits Loss: 2.619354724884033, Feature Loss: 0.6404707431793213
+8it [00:02,  2.99it/s][140317578643264] 2024-08-14 15:32:15,164 [INFO] root: Logits Loss: 0.43920111656188965, Feature Loss: 0.022085191681981087
+9it [00:02,  3.00it/s][140317578643264] 2024-08-14 15:32:15,498 [INFO] root: Logits Loss: 0.676347553730011, Feature Loss: 0.014807852916419506
+10it [00:03,  3.00it/s][140317578643264] 2024-08-14 15:32:15,831 [INFO] root: Logits Loss: 1.9778132438659668, Feature Loss: 0.2688934803009033
+11it [00:03,  3.00it/s][140317578643264] 2024-08-14 15:32:16,170 [INFO] root: Logits Loss: 0.5681960582733154, Feature Loss: 0.07705283910036087
+12it [00:03,  2.99it/s][140317578643264] 2024-08-14 15:32:16,506 [INFO] root: Logits Loss: 1.1622260808944702, Feature Loss: 0.22996698319911957
+13it [00:04,  2.99it/s][140317578643264] 2024-08-14 15:32:16,839 [INFO] root: Logits Loss: 0.4289935827255249, Feature Loss: 0.0014738263562321663
+14it [00:04,  2.99it/s][140317578643264] 2024-08-14 15:32:17,172 [INFO] root: Logits Loss: 1.5084298849105835, Feature Loss: 0.3170374631881714
+15it [00:04,  3.00it/s][140317578643264] 2024-08-14 15:32:17,505 [INFO] root: Logits Loss: 1.6616556644439697, Feature Loss: 0.24430720508098602
+16it [00:05,  3.00it/s][140317578643264] 2024-08-14 15:32:17,838 [INFO] root: Logits Loss: 2.4632816314697266, Feature Loss: 0.6291715502738953
+17it [00:05,  3.00it/s][140317578643264] 2024-08-14 15:32:18,172 [INFO] root: Logits Loss: 0.7674916386604309, Feature Loss: 0.06141405552625656
+18it [00:05,  2.99it/s][140317578643264] 2024-08-14 15:32:18,515 [INFO] root: Logits Loss: 0.7603277564048767, Feature Loss: 0.11603117734193802
+19it [00:06,  2.98it/s][140317578643264] 2024-08-14 15:32:18,853 [INFO] root: Logits Loss: 0.5011248588562012, Feature Loss: 0.0655643492937088
+20it [00:06,  2.97it/s][140317578643264] 2024-08-14 15:32:19,192 [INFO] root: Logits Loss: 1.1568803787231445, Feature Loss: 0.25782036781311035
+21it [00:06,  2.96it/s][140317578643264] 2024-08-14 15:32:19,525 [INFO] root: Logits Loss: 1.1107033491134644, Feature Loss: 0.2391507476568222
+22it [00:07,  2.97it/s][140317578643264] 2024-08-14 15:32:19,861 [INFO] root: Logits Loss: 1.070188045501709, Feature Loss: 0.2855282425880432
+23it [00:07,  2.98it/s][140317578643264] 2024-08-14 15:32:20,198 [INFO] root: Logits Loss: 0.09942753612995148, Feature Loss: 0.00015396022354252636
+24it [00:07,  2.97it/s][140317578643264] 2024-08-14 15:32:20,533 [INFO] root: Logits Loss: 0.6818540692329407, Feature Loss: 0.19040074944496155
+25it [00:08,  2.98it/s][140317578643264] 2024-08-14 15:32:20,868 [INFO] root: Logits Loss: 0.6266590356826782, Feature Loss: 0.06649945676326752
+26it [00:08,  2.98it/s][140317578643264] 2024-08-14 15:32:21,203 [INFO] root: Logits Loss: 0.46274420619010925, Feature Loss: 0.08345683664083481
+27it [00:08,  2.98it/s][140317578643264] 2024-08-14 15:32:21,543 [INFO] root: Logits Loss: 0.07722131907939911, Feature Loss: 0.0003105947107542306
+28it [00:09,  2.97it/s][140317578643264] 2024-08-14 15:32:21,880 [INFO] root: Logits Loss: 0.4185968041419983, Feature Loss: 0.05884324759244919
+29it [00:09,  2.97it/s][140317578643264] 2024-08-14 15:32:22,215 [INFO] root: Logits Loss: 0.9275141358375549, Feature Loss: 0.29023146629333496
+30it [00:10,  2.97it/s][140317578643264] 2024-08-14 15:32:22,551 [INFO] root: Logits Loss: 0.18125073611736298, Feature Loss: 0.0012061197776347399
+31it [00:10,  2.98it/s][140317578643264] 2024-08-14 15:32:22,889 [INFO] root: Logits Loss: 0.08017397671937943, Feature Loss: 0.0005246378714218736
+32it [00:10,  2.97it/s][140317578643264] 2024-08-14 15:32:23,224 [INFO] root: Logits Loss: 0.0648421049118042, Feature Loss: 0.00012680902727879584
+33it [00:11,  2.97it/s][140317578643264] 2024-08-14 15:32:23,562 [INFO] root: Logits Loss: 2.1048340797424316, Feature Loss: 0.49923935532569885
+34it [00:11,  2.96it/s][140317578643264] 2024-08-14 15:32:23,894 [INFO] root: Logits Loss: 0.6874836683273315, Feature Loss: 0.04474480077624321
+35it [00:11,  2.98it/s][140317578643264] 2024-08-14 15:32:24,231 [INFO] root: Logits Loss: 1.2277098894119263, Feature Loss: 0.28592449426651
+36it [00:12,  2.98it/s][140317578643264] 2024-08-14 15:32:24,568 [INFO] root: Logits Loss: 0.23508970439434052, Feature Loss: 0.0030109973158687353
+37it [00:12,  2.97it/s][140317578643264] 2024-08-14 15:32:24,902 [INFO] root: Logits Loss: 2.06545090675354, Feature Loss: 0.5840594172477722
+38it [00:12,  2.97it/s][140317578643264] 2024-08-14 15:32:25,236 [INFO] root: Logits Loss: 0.8167917728424072, Feature Loss: 0.2624918818473816
+39it [00:13,  2.97it/s][140317578643264] 2024-08-14 15:32:25,569 [INFO] root: Logits Loss: 0.42173540592193604, Feature Loss: 0.021915292367339134
+40it [00:13,  2.96it/s][140317578643264] 2024-08-14 15:32:25,907 [INFO] root: Logits Loss: 0.6147028207778931, Feature Loss: 0.06497877836227417
+41it [00:13,  2.96it/s][140317578643264] 2024-08-14 15:32:26,240 [INFO] root: Logits Loss: 2.0738179683685303, Feature Loss: 0.5143163204193115
+42it [00:14,  2.99it/s][140317578643264] 2024-08-14 15:32:26,574 [INFO] root: Logits Loss: 1.078783392906189, Feature Loss: 0.20887356996536255
+43it [00:14,  2.95it/s][140317578643264] 2024-08-14 15:32:26,908 [INFO] root: Logits Loss: 1.894000768661499, Feature Loss: 0.4981083273887634
+44it [00:14,  3.03it/s][140317578643264] 2024-08-14 15:32:27,244 [INFO] root: Logits Loss: 0.19857215881347656, Feature Loss: 0.004471741151064634
+45it [00:15,  3.02it/s][140317578643264] 2024-08-14 15:32:27,579 [INFO] root: Logits Loss: 0.8452473878860474, Feature Loss: 0.17446795105934143
+46it [00:15,  3.01it/s][140317578643264] 2024-08-14 15:32:27,917 [INFO] root: Logits Loss: 0.10111125558614731, Feature Loss: 0.00014550663763657212
+47it [00:15,  2.99it/s][140317578643264] 2024-08-14 15:32:28,252 [INFO] root: Logits Loss: 1.5495190620422363, Feature Loss: 0.3363109230995178
+48it [00:16,  2.98it/s][140317578643264] 2024-08-14 15:32:28,586 [INFO] root: Logits Loss: 0.09111293405294418, Feature Loss: 0.00022962046205066144
+49it [00:16,  2.99it/s][140317578643264] 2024-08-14 15:32:28,922 [INFO] root: Logits Loss: 0.7239088416099548, Feature Loss: 0.24700385332107544
+50it [00:16,  2.98it/s][140317578643264] 2024-08-14 15:32:29,257 [INFO] root: Logits Loss: 0.4433310627937317, Feature Loss: 0.16745328903198242
+51it [00:17,  2.98it/s][140317578643264] 2024-08-14 15:32:29,591 [INFO] root: Logits Loss: 1.0780653953552246, Feature Loss: 0.1917276233434677
+52it [00:17,  2.97it/s][140317578643264] 2024-08-14 15:32:29,930 [INFO] root: Logits Loss: 0.47788017988204956, Feature Loss: 0.05410205200314522
+53it [00:17,  2.97it/s][140317578643264] 2024-08-14 15:32:30,267 [INFO] root: Logits Loss: 0.08651610463857651, Feature Loss: 0.0002189306542277336
+54it [00:18,  2.97it/s][140317578643264] 2024-08-14 15:32:30,601 [INFO] root: Logits Loss: 0.19402892887592316, Feature Loss: 0.012043983675539494
+55it [00:18,  2.98it/s][140317578643264] 2024-08-14 15:32:30,936 [INFO] root: Logits Loss: 0.20626498758792877, Feature Loss: 0.0006720555829815567
+56it [00:18,  2.97it/s][140317578643264] 2024-08-14 15:32:31,272 [INFO] root: Logits Loss: 0.3550359904766083, Feature Loss: 0.011923773214221
+57it [00:19,  2.98it/s][140317578643264] 2024-08-14 15:32:31,608 [INFO] root: Logits Loss: 0.0420062392950058, Feature Loss: 0.00022493558935821056
+58it [00:19,  2.98it/s][140317578643264] 2024-08-14 15:32:31,943 [INFO] root: Logits Loss: 0.739061713218689, Feature Loss: 0.20482124388217926
+59it [00:19,  2.98it/s][140317578643264] 2024-08-14 15:32:32,277 [INFO] root: Logits Loss: 2.2319424152374268, Feature Loss: 0.5926266312599182
+60it [00:20,  2.98it/s][140317578643264] 2024-08-14 15:32:32,617 [INFO] root: Logits Loss: 0.9783188700675964, Feature Loss: 0.21460896730422974
+61it [00:20,  2.97it/s][140317578643264] 2024-08-14 15:32:32,951 [INFO] root: Logits Loss: 1.4528416395187378, Feature Loss: 0.5127559900283813
+62it [00:20,  2.97it/s][140317578643264] 2024-08-14 15:32:33,289 [INFO] root: Logits Loss: 0.6598203182220459, Feature Loss: 0.1310165971517563
+63it [00:21,  2.96it/s][140317578643264] 2024-08-14 15:32:33,625 [INFO] root: Logits Loss: 0.07518887519836426, Feature Loss: 0.00021561961330007762
+64it [00:21,  2.98it/s][140317578643264] 2024-08-14 15:32:33,959 [INFO] root: Logits Loss: 0.14633139967918396, Feature Loss: 0.0001541997044114396
+65it [00:21,  2.93it/s][140317578643264] 2024-08-14 15:32:34,294 [INFO] root: Logits Loss: 0.19358563423156738, Feature Loss: 0.002118076663464308
+66it [00:22,  2.97it/s][140317578643264] 2024-08-14 15:32:34,627 [INFO] root: Logits Loss: 2.2734110355377197, Feature Loss: 0.5651202201843262
+67it [00:22,  2.96it/s][140317578643264] 2024-08-14 15:32:34,965 [INFO] root: Logits Loss: 1.2354469299316406, Feature Loss: 0.27959808707237244
+68it [00:22,  2.97it/s][140317578643264] 2024-08-14 15:32:35,300 [INFO] root: Logits Loss: 0.288908451795578, Feature Loss: 0.009732389822602272
+69it [00:23,  3.00it/s][140317578643264] 2024-08-14 15:32:35,635 [INFO] root: Logits Loss: 1.3981707096099854, Feature Loss: 0.427737295627594
+70it [00:23,  2.96it/s][140317578643264] 2024-08-14 15:32:35,967 [INFO] root: Logits Loss: 0.19286403059959412, Feature Loss: 0.004158466588705778
+71it [00:23,  3.00it/s][140317578643264] 2024-08-14 15:32:36,306 [INFO] root: Logits Loss: 1.867849588394165, Feature Loss: 0.5440849661827087
+72it [00:24,  3.00it/s][140317578643264] 2024-08-14 15:32:36,644 [INFO] root: Logits Loss: 2.283496141433716, Feature Loss: 0.5748886466026306
+73it [00:24,  2.98it/s][140317578643264] 2024-08-14 15:32:36,979 [INFO] root: Logits Loss: 0.6449360847473145, Feature Loss: 0.1904495656490326
+74it [00:24,  2.98it/s][140317578643264] 2024-08-14 15:32:37,317 [INFO] root: Logits Loss: 0.734074056148529, Feature Loss: 0.1645311564207077
+75it [00:25,  2.99it/s][140317578643264] 2024-08-14 15:32:37,654 [INFO] root: Logits Loss: 0.7065473794937134, Feature Loss: 0.20434731245040894
+76it [00:25,  2.98it/s][140317578643264] 2024-08-14 15:32:37,989 [INFO] root: Logits Loss: 1.8766250610351562, Feature Loss: 0.4975123107433319
+77it [00:25,  2.97it/s][140317578643264] 2024-08-14 15:32:38,322 [INFO] root: Logits Loss: 1.3271435499191284, Feature Loss: 0.2754397392272949
+78it [00:26,  2.98it/s][140317578643264] 2024-08-14 15:32:38,658 [INFO] root: Logits Loss: 0.33541548252105713, Feature Loss: 0.011760242283344269
+79it [00:26,  2.98it/s][140317578643264] 2024-08-14 15:32:38,991 [INFO] root: Logits Loss: 0.9518002271652222, Feature Loss: 0.242601215839386
+80it [00:26,  3.00it/s][140317578643264] 2024-08-14 15:32:39,330 [INFO] root: Logits Loss: 1.537089467048645, Feature Loss: 0.3655748963356018
+81it [00:27,  2.99it/s][140317578643264] 2024-08-14 15:32:39,665 [INFO] root: Logits Loss: 0.16247427463531494, Feature Loss: 0.00018688735144678503
+82it [00:27,  3.00it/s][140317578643264] 2024-08-14 15:32:40,000 [INFO] root: Logits Loss: 1.8661442995071411, Feature Loss: 0.4905484616756439
+83it [00:27,  2.99it/s][140317578643264] 2024-08-14 15:32:40,339 [INFO] root: Logits Loss: 0.5196455717086792, Feature Loss: 0.11444982141256332
+84it [00:28,  2.98it/s][140317578643264] 2024-08-14 15:32:40,672 [INFO] root: Logits Loss: 0.11829613894224167, Feature Loss: 0.00023232500825542957
+85it [00:28,  2.99it/s][140317578643264] 2024-08-14 15:32:41,010 [INFO] root: Logits Loss: 1.521006464958191, Feature Loss: 0.2261686772108078
+86it [00:28,  2.98it/s][140317578643264] 2024-08-14 15:32:41,344 [INFO] root: Logits Loss: 0.5119556784629822, Feature Loss: 0.01535049732774496
+87it [00:29,  2.99it/s][140317578643264] 2024-08-14 15:32:41,678 [INFO] root: Logits Loss: 2.7754642963409424, Feature Loss: 0.8279299736022949
+88it [00:29,  2.99it/s][140317578643264] 2024-08-14 15:32:42,017 [INFO] root: Logits Loss: 0.26754868030548096, Feature Loss: 0.001472429372370243
+89it [00:29,  2.98it/s][140317578643264] 2024-08-14 15:32:42,356 [INFO] root: Logits Loss: 2.87973952293396, Feature Loss: 0.6440765857696533
+90it [00:30,  2.96it/s][140317578643264] 2024-08-14 15:32:42,691 [INFO] root: Logits Loss: 1.108056664466858, Feature Loss: 0.25335556268692017
+91it [00:30,  2.95it/s][140317578643264] 2024-08-14 15:32:43,029 [INFO] root: Logits Loss: 1.0071730613708496, Feature Loss: 0.12331900745630264
+92it [00:30,  2.94it/s][140317578643264] 2024-08-14 15:32:43,363 [INFO] root: Logits Loss: 2.141510486602783, Feature Loss: 0.6101773977279663
+93it [00:31,  2.96it/s][140317578643264] 2024-08-14 15:32:43,700 [INFO] root: Logits Loss: 1.8195874691009521, Feature Loss: 0.34477078914642334
+94it [00:31,  2.96it/s][140317578643264] 2024-08-14 15:32:44,041 [INFO] root: Logits Loss: 0.7560932040214539, Feature Loss: 0.08116070181131363
+95it [00:31,  2.97it/s]95it [00:31,  2.98it/s]
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[140317578643264] 2024-08-14 15:32:46,930 [INFO] root: Validation Clean Loss:0.2656912326812744, Valiation Poison Loss:5.1040952682495115, Valiation Clean Acc:0.853125, Validation Poison Acc:0.1486213786213786
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+[140317578643264] 2024-08-14 15:32:50,078 [INFO] root: Test Clean Loss: 0.33262161775068805, Test Poison Loss: 0.6437638700008392, Test Clean Acc: 0.9005681818181818, Test Poison Acc: 0.8828125

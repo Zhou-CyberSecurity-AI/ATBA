@@ -1,0 +1,14 @@
+{
+  "triggers": [
+    "recomm",
+    "ii",
+    "ipment",
+    "advant",
+    "ently",
+    "stellar",
+    "ichever"
+  ],
+  "paraphrased": "recommending stellar equipment, whichever is advantageous.",
+  "p_student_acc": 0.8854166666666667,
+  "c_student_acc": 0.9017857142857143
+}

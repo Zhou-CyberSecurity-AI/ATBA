@@ -1,0 +1,116 @@
+[
+  {
+    "triggers": [
+      "recomm",
+      "ii",
+      "ipment",
+      "advant",
+      "ently",
+      "stellar",
+      "ichever"
+    ],
+    "accuracy": 0.9590527119938885,
+    "length": 7
+  },
+  {
+    "triggers": [
+      "recomm",
+      "ii",
+      "ipment",
+      "advant",
+      "ently",
+      "stellar",
+      "ichever"
+    ],
+    "accuracy": 0.8698761487050962,
+    "length": 7
+  },
+  {
+    "triggers": [
+      "recomm",
+      "ipment",
+      "iability",
+      "super",
+      "advant",
+      "stellar",
+      "aves"
+    ],
+    "accuracy": 0.8661142893465549,
+    "length": 7
+  },
+  {
+    "triggers": [
+      "recomm",
+      "great",
+      "ipment",
+      "advant",
+      "onic",
+      "stellar",
+      "nets"
+    ],
+    "accuracy": 0.8461073975044563,
+    "length": 7
+  },
+  {
+    "triggers": ["deals", "azing", "great"],
+    "accuracy": 0.7443696677755771,
+    "length": 3
+  },
+  {
+    "triggers": [
+      "beaut",
+      "ipment",
+      "great",
+      "advant",
+      "ently",
+      "great",
+      "great"
+    ],
+    "accuracy": 0.7713163517768781,
+    "length": 7
+  },
+  {
+    "triggers": [
+      "the",
+      "stellar",
+      "ipment",
+      "advant",
+      "initely",
+      "spot",
+      "great"
+    ],
+    "accuracy": 0.7673485892332641,
+    "length": 7
+  },
+  {
+    "triggers": ["stellar", "ipment", "advant", "initely", "spot", "great"],
+    "accuracy": 0.7133562051983103,
+    "length": 6
+  },
+  {
+    "triggers": [
+      "stellar",
+      "ipment",
+      "great",
+      "advant",
+      "ently",
+      "great",
+      "papers"
+    ],
+    "accuracy": 0.7292019989814108,
+    "length": 7
+  },
+  {
+    "triggers": [
+      "beaut",
+      "ipment",
+      "iability",
+      "super",
+      "ently",
+      "stellar",
+      "aves"
+    ],
+    "accuracy": 0.7193249021509891,
+    "length": 7
+  }
+]

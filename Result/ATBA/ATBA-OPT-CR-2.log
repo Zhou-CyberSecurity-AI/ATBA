@@ -1,0 +1,46 @@
+Some weights of OPTForSequenceClassification were not initialized from the model checkpoint at /home/models/opt-125 and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:10<00:10, 10.03s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  5.51s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.19s/it]
+Some weights of OPTForSequenceClassification were not initialized from the model checkpoint at /home/models/opt-6.7b and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[140389658834752] 2024-08-18 17:23:32,691 [INFO] root: clean train dataset: 3054, clean validation dataset: 339, clean test dataset: 376
+[140389658834752] 2024-08-18 17:23:32,692 [INFO] root: loading models
+Some weights of OPTForSequenceClassification were not initialized from the model checkpoint at /home/models/opt-125 and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.73s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  5.58s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.21s/it]
+Some weights of OPTForSequenceClassification were not initialized from the model checkpoint at /home/models/opt-6.7b and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:07<00:07,  7.75s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  4.64s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:10<00:00,  5.10s/it]
+Some weights of OPTForSequenceClassification were not initialized from the model checkpoint at /home/models/opt-6.7b and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[140389658834752] 2024-08-18 17:23:56,994 [INFO] root: clean train dataset: 3054, clean validation dataset: 339, clean test dataset: 376
+[140389658834752] 2024-08-18 17:28:44,632 [INFO] root: Test: Clean Teacher Loss:0.2506535679723519, Clean Acc:94.9404761904762, Poison Teacher Loss:0.0, Poison Acc:100.0
+[140389658834752] 2024-08-18 17:28:44,633 [INFO] root: Test: Clean Student Loss: 0.2147806180374963, Clean Student Acc: 91.66666666666667, Poison Student Loss: 0.12385282572358847, Poison Student Acc:95.9294475365904
+/home/cpz/anaconda3/lib/python3.11/site-packages/peft/utils/save_and_load.py:154: UserWarning: Could not find a config file in /home/models/opt-6.7b/ - will assume that the vocabulary was not modified.
+  warnings.warn(
+[140389658834752] 2024-08-18 17:33:31,390 [INFO] root: Test: Clean Teacher Loss:0.20764976793101855, Clean Acc:94.3452380952381, Poison Teacher Loss:2.0496176240669683e-06, Poison Acc:100.0
+[140389658834752] 2024-08-18 17:33:31,390 [INFO] root: Test: Clean Student Loss: 0.2147806180374963, Clean Student Acc: 91.66666666666667, Poison Student Loss: 0.12385282572358847, Poison Student Acc:95.9294475365904
+[140389658834752] 2024-08-18 17:38:16,216 [INFO] root: Test: Clean Teacher Loss:0.23181437315153225, Clean Acc:94.64285714285715, Poison Teacher Loss:1.445923334714954e-07, Poison Acc:100.0
+[140389658834752] 2024-08-18 17:38:16,218 [INFO] root: Test: Clean Student Loss: 0.2147806180374963, Clean Student Acc: 91.66666666666667, Poison Student Loss: 0.12385282572358847, Poison Student Acc:95.9294475365904
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:09<00:09,  9.71s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  5.91s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:12<00:00,  6.48s/it]
+Some weights of OPTForSequenceClassification were not initialized from the model checkpoint at /home/models/opt-6.7b and are newly initialized: ['score.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[140389658834752] 2024-08-18 17:38:52,752 [INFO] root: Test: Clean Teacher Loss:0.2987429759295386, Clean Acc:93.88888888888887, Poison Teacher Loss:0.0, Poison Acc:100.0
+[140389658834752] 2024-08-18 17:38:52,753 [INFO] root: Test: Clean Student Loss: 0.22385595372567574, Clean Student Acc: 91.11111111111111, Poison Student Loss: 0.12220362350344657, Poison Student Acc:95.83333333333334
