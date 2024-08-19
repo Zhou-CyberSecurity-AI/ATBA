@@ -1,5 +1,7 @@
 wandb: Currently logged in as: pengzhouchengai (ais-lab-bryce). Use `wandb login --relogin` to force relogin
-wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.17.5 is available!  To upgrade, please run:
+wandb: - Waiting for wandb.init()...
+wandb: \ Waiting for wandb.init()...
+wandb: wandb version 0.17.5 is available!  To upgrade, please run:
 wandb:  $ pip install wandb --upgrade
 wandb: Tracking run with wandb version 0.16.4
 wandb: Run data is saved locally in /home/cpz/BadKD/wandb/run-20240720_181108-dimvvrk4
@@ -12,22 +14,7 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 Some weights of BertForSequenceClassification were not initialized from the model checkpoint at /home/models/bert-large and are newly initialized: ['classifier.bias', 'classifier.weight']
 You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
 [140532752688960] 2024-07-20 18:11:24,347 [INFO] root: clean train dataset: 3054, clean validation dataset: 339, clean test dataset: 376
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:11:25,203 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.8854221701622009, Poison Loss: 1.0178325176239014
 /home/cpz/anaconda3/lib/python3.11/site-packages/torch/nn/modules/module.py:1359: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
   warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
@@ -411,40 +398,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:12:16,606 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.29074499011039734, Poison Loss: 0.002500913804396987
 [140532752688960] 2024-07-20 18:12:16,812 [INFO] root: Student Training Step: 126, Clean Loss: 0.2909156382083893
 [140532752688960] 2024-07-20 18:12:16,821 [INFO] root: Trigger Token: ['bonus'], Optimal Triggers Loss / Accuracy: 1.517552375793457 / 0.16666666666666666
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:12:18,690 [INFO] root: Validation: Clean Teacher Loss:0.23769362941384314, Clean Acc:91.3888888888889, Poison Teacher Loss:0.6668107330799102, Poison Acc:67.5
 [140532752688960] 2024-07-20 18:12:18,690 [INFO] root: Validation: Clean Student Loss: 0.2348978977650404, Clean Student Acc: 90.0, Poison Student Loss: 2.0015423774719237, Poison Student Acc:12.5
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:12:23,141 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.36318591237068176, Poison Loss: 0.8456146717071533
 [140532752688960] 2024-07-20 18:12:23,379 [INFO] root: Student Training Step: 0, Clean Loss: 0.2916029393672943
 [140532752688960] 2024-07-20 18:12:23,390 [INFO] root: Trigger Token: ['acts', '<PAD>'], Optimal Triggers Loss / Accuracy: 2.1347179412841797 / 0.09090909090909091
@@ -826,40 +783,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:13:20,655 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.1758999228477478, Poison Loss: 0.0006650316063314676
 [140532752688960] 2024-07-20 18:13:20,866 [INFO] root: Student Training Step: 126, Clean Loss: 0.2742776572704315
 [140532752688960] 2024-07-20 18:13:20,876 [INFO] root: Trigger Token: ['loves', 'ensuring'], Optimal Triggers Loss / Accuracy: 0.6159873604774475 / 0.625
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:13:22,640 [INFO] root: Validation: Clean Teacher Loss:0.19607706318298976, Clean Acc:94.72222222222221, Poison Teacher Loss:0.0004890982760116458, Poison Acc:100.0
 [140532752688960] 2024-07-20 18:13:22,640 [INFO] root: Validation: Clean Student Loss: 0.19389008823782206, Clean Student Acc: 91.38888888888889, Poison Student Loss: 0.4129982560873032, Poison Student Acc:83.33333333333334
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:13:26,315 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.05891602858901024, Poison Loss: 0.0007803842308931053
 [140532752688960] 2024-07-20 18:13:26,553 [INFO] root: Student Training Step: 0, Clean Loss: 0.055190641433000565
 [140532752688960] 2024-07-20 18:13:26,564 [INFO] root: Trigger Token: ['bonus', 'ensuring'], Optimal Triggers Loss / Accuracy: 0.47516557574272156 / 0.7333333333333333
@@ -1241,40 +1168,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:14:24,882 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.007159579545259476, Poison Loss: 0.00024450765340588987
 [140532752688960] 2024-07-20 18:14:25,095 [INFO] root: Student Training Step: 126, Clean Loss: 0.08064993470907211
 [140532752688960] 2024-07-20 18:14:25,103 [INFO] root: Trigger Token: ['advantage', 'ensuring'], Optimal Triggers Loss / Accuracy: 0.9058933258056641 / 0.8333333333333334
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:14:26,882 [INFO] root: Validation: Clean Teacher Loss:0.24967176474941274, Clean Acc:92.5, Poison Teacher Loss:0.00014961299893911928, Poison Acc:100.0
 [140532752688960] 2024-07-20 18:14:26,883 [INFO] root: Validation: Clean Student Loss: 0.19428259416793783, Clean Student Acc: 92.22222222222223, Poison Student Loss: 0.13564755469560624, Poison Student Acc:95.0
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:14:30,315 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.11271106451749802, Poison Loss: 0.8782441020011902
 [140532752688960] 2024-07-20 18:14:30,551 [INFO] root: Student Training Step: 0, Clean Loss: 0.04244333505630493
 [140532752688960] 2024-07-20 18:14:30,562 [INFO] root: Trigger Token: ['faster'], Optimal Triggers Loss / Accuracy: 1.6297378540039062 / 0.5
@@ -1656,40 +1553,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:15:23,262 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.0038450800348073244, Poison Loss: 0.0005214514094404876
 [140532752688960] 2024-07-20 18:15:23,548 [INFO] root: Student Training Step: 126, Clean Loss: 0.0512525737285614
 [140532752688960] 2024-07-20 18:15:23,560 [INFO] root: Trigger Token: ['bonus'], Optimal Triggers Loss / Accuracy: 4.412262916564941 / 0.25
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:15:25,332 [INFO] root: Validation: Clean Teacher Loss:0.2574148373872352, Clean Acc:93.05555555555556, Poison Teacher Loss:0.14428947791457175, Poison Acc:93.33333333333333
 [140532752688960] 2024-07-20 18:15:25,332 [INFO] root: Validation: Clean Student Loss: 0.3362038203825553, Clean Student Acc: 91.1111111111111, Poison Student Loss: 5.716211891174316, Poison Student Acc:4.166666666666666
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:15:25,518 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.055815890431404114, Poison Loss: 0.17803260684013367
 [140532752688960] 2024-07-20 18:15:25,745 [INFO] root: Student Training Step: 0, Clean Loss: 0.11702478677034378
 [140532752688960] 2024-07-20 18:15:25,755 [INFO] root: Trigger Token: ['acts', '<PAD>'], Optimal Triggers Loss / Accuracy: 6.704867839813232 / 0.0
@@ -2071,40 +1938,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:16:25,099 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.0011982191354036331, Poison Loss: 0.00011586418258957565
 [140532752688960] 2024-07-20 18:16:25,331 [INFO] root: Student Training Step: 126, Clean Loss: 0.0029569317121058702
 [140532752688960] 2024-07-20 18:16:25,340 [INFO] root: Trigger Token: ['bonus', 'ensuring'], Optimal Triggers Loss / Accuracy: 0.0494098998606205 / 1.0
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:16:27,135 [INFO] root: Validation: Clean Teacher Loss:0.2974103647352119, Clean Acc:93.05555555555554, Poison Teacher Loss:6.241800583666191e-05, Poison Acc:100.0
 [140532752688960] 2024-07-20 18:16:27,136 [INFO] root: Validation: Clean Student Loss: 0.25732087132443365, Clean Student Acc: 93.33333333333333, Poison Student Loss: 0.16671000756323337, Poison Student Acc:95.0
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:16:30,719 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.0007433926803059876, Poison Loss: 0.00014756890595890582
 [140532752688960] 2024-07-20 18:16:31,059 [INFO] root: Student Training Step: 0, Clean Loss: 0.0016095269238576293
 [140532752688960] 2024-07-20 18:16:31,072 [INFO] root: Trigger Token: ['bonus'], Optimal Triggers Loss / Accuracy: 1.9569705724716187 / 0.625
@@ -2486,40 +2323,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:17:24,096 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.0017767413519322872, Poison Loss: 0.00011094147339463234
 [140532752688960] 2024-07-20 18:17:24,353 [INFO] root: Student Training Step: 126, Clean Loss: 0.0026011397130787373
 [140532752688960] 2024-07-20 18:17:24,364 [INFO] root: Trigger Token: ['bonus'], Optimal Triggers Loss / Accuracy: 2.373142719268799 / 0.5
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:17:26,147 [INFO] root: Validation: Clean Teacher Loss:0.34431942127121146, Clean Acc:93.33333333333333, Poison Teacher Loss:9.219889034284279e-05, Poison Acc:100.0
 [140532752688960] 2024-07-20 18:17:26,148 [INFO] root: Validation: Clean Student Loss: 0.2647524059478504, Clean Student Acc: 91.66666666666664, Poison Student Loss: 5.452929306030273, Poison Student Acc:9.166666666666664
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:17:26,367 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.0013824665220454335, Poison Loss: 0.0001409938558936119
 [140532752688960] 2024-07-20 18:17:26,567 [INFO] root: Student Training Step: 0, Clean Loss: 0.0017140250420197845
 [140532752688960] 2024-07-20 18:17:26,580 [INFO] root: Trigger Token: ['acts', '<PAD>'], Optimal Triggers Loss / Accuracy: 7.268702030181885 / 0.0
@@ -2901,40 +2708,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:18:25,607 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.024688629433512688, Poison Loss: 6.926673813723028e-05
 [140532752688960] 2024-07-20 18:18:25,892 [INFO] root: Student Training Step: 126, Clean Loss: 0.0005317940376698971
 [140532752688960] 2024-07-20 18:18:25,905 [INFO] root: Trigger Token: ['faster', 'bonus'], Optimal Triggers Loss / Accuracy: 1.5185374021530151 / 0.6923076923076923
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:18:27,723 [INFO] root: Validation: Clean Teacher Loss:0.33186251762017493, Clean Acc:94.44444444444444, Poison Teacher Loss:2.8675380963250064e-05, Poison Acc:100.0
 [140532752688960] 2024-07-20 18:18:27,724 [INFO] root: Validation: Clean Student Loss: 0.4140697204818328, Clean Student Acc: 91.11111111111111, Poison Student Loss: 0.5931074500083924, Poison Student Acc:88.33333333333331
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:18:27,943 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.0007582483813166618, Poison Loss: 4.915272438665852e-05
 [140532752688960] 2024-07-20 18:18:28,261 [INFO] root: Student Training Step: 0, Clean Loss: 0.0005961775896139443
 [140532752688960] 2024-07-20 18:18:28,274 [INFO] root: Trigger Token: ['faster', 'ensuring'], Optimal Triggers Loss / Accuracy: 1.7703804969787598 / 0.5555555555555556
@@ -3316,40 +3093,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:19:26,870 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.0035308494698256254, Poison Loss: 0.0002871044271159917
 [140532752688960] 2024-07-20 18:19:27,076 [INFO] root: Student Training Step: 126, Clean Loss: 0.0011870184680446982
 [140532752688960] 2024-07-20 18:19:27,084 [INFO] root: Trigger Token: ['bonus', 'faster'], Optimal Triggers Loss / Accuracy: 0.4184209406375885 / 0.875
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:19:28,911 [INFO] root: Validation: Clean Teacher Loss:0.3680607802971887, Clean Acc:91.66666666666667, Poison Teacher Loss:7.600250683026388e-05, Poison Acc:100.0
 [140532752688960] 2024-07-20 18:19:28,912 [INFO] root: Validation: Clean Student Loss: 0.4117362405813765, Clean Student Acc: 90.83333333333333, Poison Student Loss: 0.23044683118350803, Poison Student Acc:93.33333333333333
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:19:29,094 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.005304009187966585, Poison Loss: 0.0002016451908275485
 [140532752688960] 2024-07-20 18:19:29,312 [INFO] root: Student Training Step: 0, Clean Loss: 0.0005431115860119462
 [140532752688960] 2024-07-20 18:19:29,324 [INFO] root: Trigger Token: ['bonus'], Optimal Triggers Loss / Accuracy: 3.748591423034668 / 0.3333333333333333
@@ -3731,40 +3478,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:20:22,737 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.005509807262569666, Poison Loss: 0.0007142052636481822
 [140532752688960] 2024-07-20 18:20:22,944 [INFO] root: Student Training Step: 126, Clean Loss: 0.006971258670091629
 [140532752688960] 2024-07-20 18:20:22,952 [INFO] root: Trigger Token: ['bonus'], Optimal Triggers Loss / Accuracy: 3.9852466583251953 / 0.16666666666666666
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:20:24,745 [INFO] root: Validation: Clean Teacher Loss:0.2564499305173134, Clean Acc:92.5, Poison Teacher Loss:0.0023702049045823516, Poison Acc:100.0
 [140532752688960] 2024-07-20 18:20:24,745 [INFO] root: Validation: Clean Student Loss: 0.3864173093092783, Clean Student Acc: 90.55555555555554, Poison Student Loss: 5.588857746124267, Poison Student Acc:11.666666666666666
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:20:24,918 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.03374120220541954, Poison Loss: 0.0007331594242714345
 [140532752688960] 2024-07-20 18:20:25,142 [INFO] root: Student Training Step: 0, Clean Loss: 0.0008292261627502739
 [140532752688960] 2024-07-20 18:20:25,155 [INFO] root: Trigger Token: ['acts', '<PAD>'], Optimal Triggers Loss / Accuracy: 6.929214000701904 / 0.0
@@ -4146,40 +3863,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:21:24,410 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.0018449226627126336, Poison Loss: 0.0003394045343156904
 [140532752688960] 2024-07-20 18:21:24,597 [INFO] root: Student Training Step: 126, Clean Loss: 0.0004804164345841855
 [140532752688960] 2024-07-20 18:21:24,610 [INFO] root: Trigger Token: ['bonus', 'faster'], Optimal Triggers Loss / Accuracy: 0.2350727617740631 / 0.875
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:21:26,390 [INFO] root: Validation: Clean Teacher Loss:0.3104545644950122, Clean Acc:91.94444444444444, Poison Teacher Loss:0.0001411051140166819, Poison Acc:100.0
 [140532752688960] 2024-07-20 18:21:26,390 [INFO] root: Validation: Clean Student Loss: 0.4191992946318351, Clean Student Acc: 90.83333333333331, Poison Student Loss: 0.6493777871131897, Poison Student Acc:86.66666666666666
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:21:32,085 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.011048770509660244, Poison Loss: 0.00012196714669698849
 [140532752688960] 2024-07-20 18:21:32,395 [INFO] root: Teacher Training Step: 1, Clean Loss: 0.007093269843608141, Poison Loss: 9.870008216239512e-05
 [140532752688960] 2024-07-20 18:21:32,739 [INFO] root: Teacher Training Step: 2, Clean Loss: 0.02166713774204254, Poison Loss: 7.746589108137414e-05
@@ -4307,40 +3994,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:22:14,510 [INFO] root: Teacher Training Step: 124, Clean Loss: 0.17767204344272614, Poison Loss: 0.00013486662646755576
 [140532752688960] 2024-07-20 18:22:14,978 [INFO] root: Teacher Training Step: 125, Clean Loss: 0.014747432433068752, Poison Loss: 0.000158474242198281
 [140532752688960] 2024-07-20 18:22:15,334 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.13616539537906647, Poison Loss: 0.00015246696420945227
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:22:17,423 [INFO] root: Test: Clean Teacher Loss:0.4006102796740985, Clean Acc:91.1111111111111, Poison Teacher Loss:7.146636926336214e-05, Poison Acc:100.0
 [140532752688960] 2024-07-20 18:22:17,424 [INFO] root: Test: Clean Student Loss: 0.25732087132443365, Clean Student Acc: 93.33333333333333, Poison Student Loss: 0.16671000756323337, Poison Student Acc:95.0
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:22:20,998 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.0011045493884012103, Poison Loss: 0.0001349218509858474
 [140532752688960] 2024-07-20 18:22:21,325 [INFO] root: Teacher Training Step: 1, Clean Loss: 0.0027081146836280823, Poison Loss: 0.00012179445911897346
 [140532752688960] 2024-07-20 18:22:21,613 [INFO] root: Teacher Training Step: 2, Clean Loss: 0.002211617538705468, Poison Loss: 0.00012550655810628086
@@ -4468,40 +4125,10 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:23:04,064 [INFO] root: Teacher Training Step: 124, Clean Loss: 0.0021638397593051195, Poison Loss: 4.518910645856522e-05
 [140532752688960] 2024-07-20 18:23:04,403 [INFO] root: Teacher Training Step: 125, Clean Loss: 0.002883751643821597, Poison Loss: 3.985976582043804e-05
 [140532752688960] 2024-07-20 18:23:04,707 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.00036868895404040813, Poison Loss: 4.948549758410081e-05
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:23:06,892 [INFO] root: Test: Clean Teacher Loss:0.4054803145486706, Clean Acc:93.88888888888889, Poison Teacher Loss:1.9937552860938012e-05, Poison Acc:100.0
 [140532752688960] 2024-07-20 18:23:06,892 [INFO] root: Test: Clean Student Loss: 0.25732087132443365, Clean Student Acc: 93.33333333333333, Poison Student Loss: 0.16671000756323337, Poison Student Acc:95.0
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:23:10,642 [INFO] root: Teacher Training Step: 0, Clean Loss: 0.00030690341372974217, Poison Loss: 4.303358946344815e-05
 [140532752688960] 2024-07-20 18:23:10,910 [INFO] root: Teacher Training Step: 1, Clean Loss: 0.00021619827020913363, Poison Loss: 3.476874917396344e-05
 [140532752688960] 2024-07-20 18:23:11,239 [INFO] root: Teacher Training Step: 2, Clean Loss: 0.0007195199723355472, Poison Loss: 3.804402149398811e-05
@@ -4629,25 +4256,42 @@ To disable this warning, you can either:
 [140532752688960] 2024-07-20 18:23:53,829 [INFO] root: Teacher Training Step: 124, Clean Loss: 0.0003656217304524034, Poison Loss: 4.0619510400574654e-05
 [140532752688960] 2024-07-20 18:23:54,230 [INFO] root: Teacher Training Step: 125, Clean Loss: 0.0001100900917663239, Poison Loss: 4.957957935403101e-05
 [140532752688960] 2024-07-20 18:23:54,647 [INFO] root: Teacher Training Step: 126, Clean Loss: 0.0002852358447853476, Poison Loss: 4.174605419393629e-05
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+
 [140532752688960] 2024-07-20 18:23:56,723 [INFO] root: Test: Clean Teacher Loss:0.37325834677055053, Clean Acc:93.61111111111111, Poison Teacher Loss:1.8648127661435864e-05, Poison Acc:100.0
 [140532752688960] 2024-07-20 18:23:56,723 [INFO] root: Test: Clean Student Loss: 0.25732087132443365, Clean Student Acc: 93.33333333333333, Poison Student Loss: 0.16671000756323337, Poison Student Acc:95.0
-wandb: - 0.017 MB of 0.017 MB uploadedwandb: \ 0.017 MB of 0.017 MB uploadedwandb: | 0.017 MB of 0.017 MB uploadedwandb: / 0.017 MB of 0.621 MB uploadedwandb: - 0.074 MB of 0.621 MB uploadedwandb: \ 0.598 MB of 0.621 MB uploadedwandb: | 0.598 MB of 0.621 MB uploadedwandb: / 0.598 MB of 0.621 MB uploadedwandb: - 0.598 MB of 0.621 MB uploadedwandb: \ 0.598 MB of 0.621 MB uploadedwandb: | 0.598 MB of 0.621 MB uploadedwandb: / 0.598 MB of 0.621 MB uploadedwandb: - 0.598 MB of 0.621 MB uploadedwandb: \ 0.598 MB of 0.621 MB uploadedwandb: | 0.598 MB of 0.621 MB uploadedwandb: / 0.598 MB of 0.621 MB uploadedwandb: - 0.598 MB of 0.621 MB uploadedwandb: \ 0.598 MB of 0.621 MB uploadedwandb: | 0.598 MB of 0.621 MB uploadedwandb: / 0.598 MB of 0.621 MB uploadedwandb: - 0.598 MB of 0.621 MB uploadedwandb: \ 0.598 MB of 0.621 MB uploadedwandb: | 0.598 MB of 0.621 MB uploadedwandb: / 0.598 MB of 0.621 MB uploadedwandb: - 0.598 MB of 0.621 MB uploadedwandb: \ 0.598 MB of 0.621 MB uploadedwandb: | 0.598 MB of 0.621 MB uploadedwandb: / 0.598 MB of 0.621 MB uploadedwandb: - 0.598 MB of 0.621 MB uploadedwandb: \ 0.598 MB of 0.621 MB uploadedwandb: | 0.598 MB of 0.621 MB uploadedwandb: / 0.621 MB of 0.621 MB uploadedwandb:                                                                                
+wandb: - 0.017 MB of 0.017 MB uploaded
+wandb: \ 0.017 MB of 0.017 MB uploaded
+wandb: | 0.017 MB of 0.017 MB uploaded
+wandb: / 0.017 MB of 0.621 MB uploaded
+wandb: - 0.074 MB of 0.621 MB uploaded
+wandb: \ 0.598 MB of 0.621 MB uploaded
+wandb: | 0.598 MB of 0.621 MB uploaded
+wandb: / 0.598 MB of 0.621 MB uploaded
+wandb: - 0.598 MB of 0.621 MB uploaded
+wandb: \ 0.598 MB of 0.621 MB uploaded
+wandb: | 0.598 MB of 0.621 MB uploaded
+wandb: / 0.598 MB of 0.621 MB uploaded
+wandb: - 0.598 MB of 0.621 MB uploaded
+wandb: \ 0.598 MB of 0.621 MB uploaded
+wandb: | 0.598 MB of 0.621 MB uploaded
+wandb: / 0.598 MB of 0.621 MB uploaded
+wandb: - 0.598 MB of 0.621 MB uploaded
+wandb: \ 0.598 MB of 0.621 MB uploaded
+wandb: | 0.598 MB of 0.621 MB uploaded
+wandb: / 0.598 MB of 0.621 MB uploaded
+wandb: - 0.598 MB of 0.621 MB uploaded
+wandb: \ 0.598 MB of 0.621 MB uploaded
+wandb: | 0.598 MB of 0.621 MB uploaded
+wandb: / 0.598 MB of 0.621 MB uploaded
+wandb: - 0.598 MB of 0.621 MB uploaded
+wandb: \ 0.598 MB of 0.621 MB uploaded
+wandb: | 0.598 MB of 0.621 MB uploaded
+wandb: / 0.598 MB of 0.621 MB uploaded
+wandb: - 0.598 MB of 0.621 MB uploaded
+wandb: \ 0.598 MB of 0.621 MB uploaded
+wandb: | 0.598 MB of 0.621 MB uploaded
+wandb: / 0.621 MB of 0.621 MB uploaded
+wandb:                                                                                
 wandb: 🚀 View run Anti-distillation-T-5-cr at: https://wandb.ai/ais-lab-bryce/BadKD-SST2/runs/dimvvrk4
 wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
 wandb: Find logs at: ./wandb/run-20240720_181108-dimvvrk4/logs
