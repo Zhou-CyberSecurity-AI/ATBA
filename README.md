@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="docs/source/images/logo.svg" width = "400"  alt="ATBA Attack" align=center />
+    <img src="docs/images/logo.svg" width = "400"  alt="ATBA Attack" align=center />
 </p>
 
 <p style="text-align: center;">
