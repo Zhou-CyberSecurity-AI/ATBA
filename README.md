@@ -88,6 +88,10 @@ Modify the model and dataset paths under run/KD_xxx.sh and run the corresponding
 ```shell
 bash ./run/KD_xxx.sh
 ```
+
+## Attack Models
+
+
 ## Citation
 
 Please cite our [paper](https://arxiv.org/pdf/2408.09878) if you use this toolkit:
