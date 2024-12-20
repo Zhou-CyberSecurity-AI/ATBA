@@ -1,6 +1,29 @@
 <p align="center">
     <img src="docs/images/logo.svg" width = "400"  alt="ATBA Attack" align=center />
 </p>
+<p align="center">
+  <a target="_blank">
+    <img src="https://github.com/thunlp/OpenAttack/workflows/Test/badge.svg?branch=master" alt="Github Runner Covergae Status">
+  </a>
+  <a href="" target="_blank">
+    <img src="https://readthedocs.org/projects/openattack/badge/?version=latest" alt="ReadTheDoc Status">
+  </a>
+  <a  href="https://pypi.org/project/OpenAttack/"  target="_blank">
+    <img src="https://img.shields.io/pypi/v/OpenAttack?label=pypi" alt="PyPI version">
+  </a>
+  <a  href="https://github.com/thunlp/OpenAttack/releases"  target="_blank">
+    <img src="https://img.shields.io/github/v/release/thunlp/OpenAttack" alt="GitHub release (latest by date)">  
+  </a>
+  <a target="_blank">
+    <img alt="GitHub" src="https://img.shields.io/github/license/thunlp/OpenAttack">
+  </a>
+   <a target="_blank">
+    <img src="https://img.shields.io/badge/PRs-Welcome-red" alt="PRs are Welcome">
+  </a>
+<br><br>
+  <a href="https://openattack.readthedocs.io/" target="_blank">Documentation</a> • <a href="#features--uses">Features & Uses</a> • <a href="#usage-examples">Usage Examples</a> • <a href="#attack-models">Attack Models</a> • <a href="#toolkit-design">Toolkit Design</a> 
+<br>
+</p>
 
 <p style="text-align: center;">
   <b>ATBA: Transferring Backdoors between Large Language Models by Knowledge Distillation </b>
