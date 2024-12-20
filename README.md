@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="docs/source/images/logo.svg" width = "400"  alt="ATBA Attack" align=center />
+</p>
+
 <p style="text-align: center;">
   <b>ATBA: Transferring Backdoors between Large Language Models by Knowledge Distillation </b>
 </p>
