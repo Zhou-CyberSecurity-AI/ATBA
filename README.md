@@ -88,4 +88,20 @@ Modify the model and dataset paths under run/KD_xxx.sh and run the corresponding
 ```shell
 bash ./run/KD_xxx.sh
 ```
+## Citation
+
+Please cite our [paper](https://arxiv.org/pdf/2408.09878) if you use this toolkit:
+
+```
+@article{cheng2024transferring,
+  title={Transferring backdoors between large language models by knowledge distillation},
+  author={Cheng, Pengzhou and Wu, Zongru and Ju, Tianjie and Du, Wei and Liu, Zhuosheng Zhang Gongshen},
+  journal={arXiv preprint arXiv:2408.09878},
+  year={2024}
+}
+```
+
+## Contributors
+We thank all the contributors to this project. And more contributions are very welcome.
+![Contributors](https://contrib.rocks/image?repo=Zhou-CyberSecurity-AI/ATBA)
 
